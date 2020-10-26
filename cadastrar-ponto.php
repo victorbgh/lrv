@@ -38,17 +38,17 @@
      <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
  
      
-     <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.3">
-     <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.3"> -->
-     <!-- <link rel="stylesheet" href="css/slicknav.css?v=1.3"> -->
-     <link rel="stylesheet" href="css/terceiros/animate.css?v=1.3">
-     <link rel="stylesheet" href="css/nosso/main.css?v=1.3">    
-     <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.3">
+     <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.4">
+     <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.4"> -->
+     <!-- <link rel="stylesheet" href="css/slicknav.css?v=1.4"> -->
+     <link rel="stylesheet" href="css/terceiros/animate.css?v=1.4">
+     <link rel="stylesheet" href="css/nosso/main.css?v=1.4">    
+     <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.4">
  
      
      <!--[if IE]>
@@ -177,7 +177,7 @@
         <div class="row justify-content-md-center">
           <div class="col-md-12">
             <div class="contents text-center">
-              <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">CADASTRE SEU PDV</h4>
+              <h4 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">CADASTRE SEU PDV</h4>
             </div>
           </div>
         </div> 
@@ -192,7 +192,7 @@
         </div>
         <br>      
             <div class="row">    
-                <div class="col-lg-12 col-sm-12 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.5s">
+                <div class="col-lg-12 col-sm-12 col-xs-12 wow fadeInRight" data-wow-duration="600ms" data-wow-delay="0.5s">
                     <div class="contact-block">
                         <form id="cad-ponto">
                             <div class="row">
@@ -439,26 +439,26 @@
       </div>
 
       <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/terceiros/jquery-min.js?v=1.3"></script>
-    <script src="js/terceiros/popper.min.js?v=1.3"></script>
-    <script src="js/terceiros/bootstrap.min.js?v=1.3"></script>
-    <script src="js/terceiros/owl.carousel.js?v=1.3"></script>
-    <script src="js/terceiros/flickity.pkgd.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.stellar.min.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.nav.js?v=1.3"></script>    
-    <script src="js/terceiros/scrolling-nav.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.easing.min.js?v=1.3"></script>    
-    <script src="js/terceiros/smoothscroll.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.slicknav.js?v=1.3"></script>      -->
-    <script src="js/terceiros/wow.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.vide.js?v=1.3"></script>
-    <script src="js/terceiros/jquery.counterup.min.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.3"></script>     -->
-    <script src="js/terceiros/waypoints.min.js?v=1.3"></script>    
-    <script src="js/terceiros/form-validator.min.js?v=1.3"></script>
-    <script src="js/nosso/contact-form-script.js?v=1.3"></script>   
-    <script src="js/nosso/main.js?v=1.3"></script>
-    <script src="js/nosso/coleta.js?v=1.3"></script>
-    <script src="js/terceiros/jquery.mask.min.js?v=1.3"></script>
+    <script src="js/terceiros/jquery-min.js?v=1.4"></script>
+    <script src="js/terceiros/popper.min.js?v=1.4"></script>
+    <script src="js/terceiros/bootstrap.min.js?v=1.4"></script>
+    <script src="js/terceiros/owl.carousel.js?v=1.4"></script>
+    <script src="js/terceiros/flickity.pkgd.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.stellar.min.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.nav.js?v=1.4"></script>    
+    <script src="js/terceiros/scrolling-nav.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.easing.min.js?v=1.4"></script>    
+    <script src="js/terceiros/smoothscroll.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.slicknav.js?v=1.4"></script>      -->
+    <script src="js/terceiros/wow.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.vide.js?v=1.4"></script>
+    <script src="js/terceiros/jquery.counterup.min.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.4"></script>     -->
+    <script src="js/terceiros/waypoints.min.js?v=1.4"></script>    
+    <script src="js/terceiros/form-validator.min.js?v=1.4"></script>
+    <script src="js/nosso/contact-form-script.js?v=1.4"></script>   
+    <script src="js/nosso/main.js?v=1.4"></script>
+    <script src="js/nosso/coleta.js?v=1.4"></script>
+    <script src="js/terceiros/jquery.mask.min.js?v=1.4"></script>
 </body>
 </html>

@@ -36,18 +36,19 @@
 
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     
-    <script type="text/javascript" src="js/terceiros/flickity.pkgd.js?v=1.3"></script>
-	  <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.3">
-    <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.3">
-    <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.3">
-    <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.3">
-    <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.3">
-    <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.3">
-    <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.3"> -->
-    <!-- <link rel="stylesheet" href="css/slicknav.min.css?v=1.3"> -->
-    <link rel="stylesheet" href="css/terceiros/animate.css?v=1.3">
-    <link rel="stylesheet" href="css/nosso/main.css?v=1.3">
-    <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.3">
+    <script type="text/javascript" src="js/terceiros/flickity.pkgd.js?v=1.4"></script>
+	  <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/owl.theme.default.min.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.4">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.4"> -->
+    <!-- <link rel="stylesheet" href="css/slicknav.min.css?v=1.4"> -->
+    <link rel="stylesheet" href="css/terceiros/animate.css?v=1.4">
+    <link rel="stylesheet" href="css/nosso/main.css?v=1.4">
+    <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.4">
     <script src='https://lrv-instagram.herokuapp.com/token.js'></script>
  
     <!--[if IE]>
@@ -136,7 +137,7 @@
             <div class="col-sm-12">
               <div class="image-container ">
                 <div id="divToAppend-first" class="text-container" style="text-align: center;">
-                  <h1 id="h1-header-lrv-first" class="headStyle margin-85 section-subtitle p-style-header wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">#LaOnça</h1>
+                  <h1 id="h1-header-lrv-first" class="headStyle margin-85 section-subtitle p-style-header wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">#LaOnça</h1>
                 </div>
               </div>
             </div>
@@ -147,7 +148,7 @@
             <div class="col-sm-12">
               <div class="image-container ">
                 <div id="divToAppend-second" class="text-container" style="text-align: center;">
-                  <h1 id="h1-segundo" class="headStyle section-subtitle p-style-header wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">O Verdadeiro Destalado!</h1>
+                  <h1 id="h1-segundo" class="headStyle section-subtitle p-style-header wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms">O Verdadeiro Destalado!</h1>
                 </div>
               </div>
             </div>
@@ -160,46 +161,46 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="2000ms" data-wow-delay="0.5s">SOBRE A LRV BRASIL</h2>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.6s">
+          <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.5s">SOBRE A LRV BRASIL</h2>
+          <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
             Tudo começou quando três revolucionários se encantaram pela cultura do tabaco para enrolar na capital do país. 
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.7s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">
             Com isso, viram a carência de um produto qualitativo no mercado, gerando incentivo para empreender, que sempre foi um sonho em comum.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.8s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.8s">
             Isso os motivou a realizarem uma jornada do Centro ao Sul do país, região onde a cultura do plantio de tabaco ocorre há séculos. 
             Essa aventura lhes proporcionou a oportunidade de <b class="bold">degustar</b> 
             diversos tipos e cortes de fumo.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.9s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">
             Após um longo processo de seleção, foi escolhido o tabaco mais qualitativo do tipo Golden Virgínia para lançarmos o nosso primeiro produto: 
             o <b class="bold">La Revolución</b>, que possui como característica especial ser destalado à mão, tornando-o único.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1.0s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.0s">
             Desde o início, sempre houve o sonho de revolucionar o mercado com produtos da mais alta qualidade, proporcionando experiências singulares aos 
             entusiastas da cultura.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1.1s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.1s">
             Durante toda essa jornada, houveram diversos desafios para encontrar o carro-chefe, pois não faltava ambição para possuir o melhor tabaco do mercado. 
             Desde o princípio, houve o compromisso de legalizar todos os produtos, visto que muitas marcas comercializam produtos ilegais e que podem ser danosos 
             aos consumidores. Isso mostra a preocupação da empresa com os clientes, pois sem a legalização, não há como o órgão regulatório saber quais as 
             substâncias que o fumo possui.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1.2s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.2s">
             A onça foi designada como símbolo da LRV por ser um dos animais mais imponentes e fortes da fauna brasileira. <i>Vimos</i>, assim, grande identificação com 
             nossos ideais, pois <i>pretendemos</i> liderar o mercado nacional.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1.3s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.3s">
             Além disso, a onça representa nossas raízes, que jamais serão esquecidas, afinal, desejamos expor a cara do nosso país nessa jornada de crescimento.
           </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1.4s">
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.4s">
             Somos ambiciosos e temos a pretensão de aumentar o nosso portfólio de produtos, gerando experiências únicas e sempre acompanhado dos nossos três pilares: 
             Qualidade, Legalidade e Transparência.
           </p>
 
-          <p class="section-subtitle wow fadeInDown bold" data-wow-duration="1000ms" data-wow-delay="2.4s">Isso é LRV.</p> 
+          <p class="section-subtitle wow fadeInDown bold" data-wow-duration="600ms" data-wow-delay="2.4s">Isso é LRV.</p> 
         </div>
       </div>
     </section>
@@ -242,19 +243,19 @@
       <div class=" ">
         <div class="container ">
           <div class="section-header section" style="margin-bottom: 0px !important;">          
-            <h1 class="section-title wow fadeIn" data-wow-duration="2000ms" data-wow-delay="0.4s">Cultura do Tabaco</h1>
-            <hr class="lines wow fadeIn" data-wow-duration="2000ms" data-wow-delay="0.4s">
+            <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.4s">Cultura do Tabaco</h1>
+            <span class="lines wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.4s"></span>
             <div class="row">
               <div class="col-lg-12 col-sm-12 col-xs-12 box-item">
-                <p class="section-subtitle wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="0.6s">
+                <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
                   O tabaco era usado pelos indígenas em rituais religiosos com o objetivo de purificar, contemplar, proteger e fortalecer os 
                   ímpetos guerreiros. Os termos tabacum e tabaco vêm do nome de um tipo de junco vazado que era usado pelos indígenas para inalar o fumo.
                 </p>
-                <p class="section-subtitle wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="0.6s">
+                <p class="section-subtitle wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.6s">
                   Levado para a Europa nas navegações de Cristóvão Colombo, a rainha da França, Catarina de Médicis, passou a usar o fumo em pó para curar enxaquecas. 
                   O uso do tabaco para esta finalidade foi recomendado por Jean Nicot (vem daí o nome do seu princípio ativo, a nicotina). 
                 </p>
-                  <a class="lrvLinkButton wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="0.8" href="historia-do-tabaco.php">Leia mais</a>
+                  <a class="lrvLinkButton wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.8" href="historia-do-tabaco.php">Leia mais</a>
               </div>
               <!-- <div class="col-md-6 col-xs-12 col-xs-12 ">
                 <img class="img-fluid wow fadeInRight" height="auto" width="60%" src="img/tabaco-duplo-reduzido.png" alt="LRV BRASIL TABACOS" data-wow-duration="2000ms" data-wow-delay="0.6s">
@@ -268,18 +269,18 @@
     <section id="a-revolucao" class="section">
       <div class="container">
         <div class="section-header col-md-12">          
-          <h1 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">A REVOLUÇÃO</h1>
-          <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-            <p class="section-subtitle wow fadeInDown font-700" data-wow-duration="1000ms" data-wow-delay="0.3s">
+          <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s">A REVOLUÇÃO</h1>
+          <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
+            <p class="section-subtitle wow fadeInDown font-700" data-wow-duration="600ms" data-wow-delay="0.3s">
               “Não podemos aguardar que os tempos se modifiquem e nós nos modifiquemos junto, por uma revolução que chegue e nos leve em sua marcha. 
               Nós mesmos somos o futuro. Nós somos a revolução.”
             </p>
-            <p class="section-subtitle wow fadeInUp font-700" data-wow-duration="1000ms" data-wow-delay="0.3s">Beatrice Bruteau</p>
+            <p class="section-subtitle wow fadeInUp font-700" data-wow-duration="600ms" data-wow-delay="0.3s">Beatrice Bruteau</p>
         </div>
 
         <div class="row">
-          <div class="col-md-6 wow fadeInDown margin-bottom-15" data-wow-duration="2000ms" data-wow-delay="0.5s">
-            <div class="hero-slider" data-carousel-lrv style="border-radius: 20px;">
+          <div class="col-md-6 wow fadeInDown margin-bottom-15" data-wow-duration="600ms" data-wow-delay="0.5s">
+            <!-- <div class="hero-slider" data-carousel-lrv style="border-radius: 20px;">
               <div class="carousel-cell" style="background-image:url(img/la-revolucion-tabaco-1-min.png);">
                 <div class="overlay"></div>
               </div>
@@ -292,17 +293,23 @@
               <div class="carousel-cell" style="background-image:url(img/tabacoAr-min.jpg);">
                 <div class="overlay"></div>
               </div>
+            </div> -->
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img style="border-radius: 10px;" class="img-fluid" src="img/la-revolucion-tabaco-1-min.png" width="100%" height="auto" alt="CMA Escritório"></div>
+                <div class="item"><img style="border-radius: 10px;" class="img-fluid" src="img/teste.jpg" width="100%" height="auto" alt="CMA Escritório"></div>
+                <div class="item"><img style="border-radius: 10px;" class="img-fluid" src="img/lrv-slide-3-min.png" width="100%" height="auto" alt="CMA Escritório"></div>
+                <div class="item"><img style="border-radius: 10px;" class="img-fluid" src="img/tabacoAr-min.jpg" width="100%" height="auto" alt="CMA Escritório"></div>
             </div>
           </div>
 
           <div class="col-md-6">
-            <h1 class="wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="0.5s">Tabaco <img src="<?php echo url_site;?>img/LA REVOLUCION PNG.png" alt="LRV BRASIL TABACO" width="60%" height="auto"></h1>
-            <p class="wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="0.7s">O Tabaco La Revolución é um fumo desfiado <b>Premium</b> do tipo Golden Virginia.</p>
-            <p class="wow fadeInDown" data-wow-duration="2000ms" data-wow-delay="0.9s">As folhas passam pelo processo de cura chamado Flue-Cured, que consiste no aquecimento em um ambiente controlado, para que ocorra a liberação 
+            <h1 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">Tabaco <img src="<?php echo url_site;?>img/LA REVOLUCION PNG.png" alt="LRV BRASIL TABACO" width="60%" height="auto"></h1>
+            <p class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">O Tabaco La Revolución é um fumo desfiado <b>Premium</b> do tipo Golden Virginia.</p>
+            <p class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">As folhas passam pelo processo de cura chamado Flue-Cured, que consiste no aquecimento em um ambiente controlado, para que ocorra a liberação 
               dos açúcares naturais e adquiram a coloração clara, além de seu aroma característico, marcas únicas do produto.</p>
-            <p class="wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="0.9s">Por fim, todas as folhas são minuciosamente selecionadas e <b>Destaladas à Mão</b>, o que faz com que os talos sejam eliminados, 
+            <p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.9s">Por fim, todas as folhas são minuciosamente selecionadas e <b>Destaladas à Mão</b>, o que faz com que os talos sejam eliminados, 
               tornando o tabaco extremamente limpo.</p>
-            <p class="wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="0.7s">Sua característica principal é proporcionar uma experiência <b>suave</b>, <b>autêntica</b> e <b>saborosa</b>.</p>
+            <p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.7s">Sua característica principal é proporcionar uma experiência <b>suave</b>, <b>autêntica</b> e <b>saborosa</b>.</p>
             <br>
           </div>
         </div>
@@ -311,18 +318,20 @@
 
     <div id="testimonial" class="">
       <div class="masked ">
-        <div class="container " style="padding-top: 80px; padding-bottom: 80px;">
+        <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
           <div class="row">
             <div class="col-md-8">
-              <h1 class="section-title wow fadeIn word-wrap" data-wow-duration="1000ms" data-wow-delay="0.3s">REGISTRO</h1>
-              <hr class="lines wow zoomIn" data-wow-delay="0.3s">
-              <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">
+              <h1 class="section-title wow fadeIn word-wrap" data-wow-duration="600ms" data-wow-delay="0.3s">REGISTRO</h1>
+              <div class="section-header" style="text-align:left;">
+                <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
+              </div>
+              <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">
                 A Agência Nacional de Vigilância Sanitária (ANVISA) é o órgão responsável pela regulamentação de produtos derivados do tabaco.
               </p>
-              <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.4s">
+              <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.4s">
                 Após o crescimento da cultura do tabaco para enrolar, fomos os precursores no êxito da conquista da legalidade no Centro do país.
               </p>
-              <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.5s">
+              <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">
                 Combata a ilegalidade e valorize a <b style="text-transform:uppercase">transparência</b>.
               </p>
             </div>
@@ -335,10 +344,10 @@
     <section id="portfolios" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Galeria</h2>
-          <hr class="lines wow zoomIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+          <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s">Galeria</h2>
+          <span class="lines wow zoomIn" data-wow-duration="600ms" data-wow-delay="0.3s"></span>
         </div>
-        <div class="row justify-content-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.5s">
+        <div class="row justify-content-center wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">
           <div class="col-md-12 col-sm-12">
             <div id="instafeed"></div>
 
@@ -362,8 +371,8 @@
       <div class="masked">
         <div class="container" style="padding: 80px 0 80px 0;">
           <div class="section-header">          
-            <h1 class="section-title wow fadeIn color-white" data-wow-duration="2000ms" data-wow-delay="0.5s">ONDE ENCONTRAR</h1>
-            <hr class="lines wow zoomIn" data-wow-delay="0.3s">
+            <h1 class="section-title wow fadeIn color-white" data-wow-duration="600ms" data-wow-delay="0.5s">ONDE ENCONTRAR</h1>
+            <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
           </div>
           <div class="row justify-content-center">
             <div class="col-md-2">
@@ -403,7 +412,7 @@
           <br>
           <div class="row justify-content-center" style="text-align: center;">
             <div class="col-md-12 justify-content-center">
-              <button type="button" class="btn btn-warning white-space-normal wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="0.8" onclick="redirecionarCadPonto()">Clique aqui para cadastrar seu ponto de venda</button>
+              <button type="button" class="btn btn-warning white-space-normal wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.8" onclick="redirecionarCadPonto()">Clique aqui para cadastrar seu ponto de venda</button>
             </div>
           </div>
         </div>
@@ -415,8 +424,8 @@
       <div class="contact-form">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">CONTATO</h2>
-            <hr class="lines wow zoomIn" data-wow-duration="1000ms" data-wow-delay="0.3s">
+            <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s">CONTATO</h2>
+            <span class="lines wow zoomIn" data-wow-duration="600ms" data-wow-delay="0.3s"></span>
           </div>
 
           <div class="row">     
@@ -424,14 +433,14 @@
               <div class="contact-us">
                 <!-- <h3 class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Entre em contato</h3> -->
                 <div class="contact-address">
-                  <p class="wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.5s">Estamos à disposição para esclarecer dúvidas e sempre abertos à sugestões!</p>
-                  <p class="phone wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.6s">Se prefirir, use o formulário ao lado para enviar a mensagem.</p>
-                  <a class="wow fadeInLeft" title="Enviar uma mensagem por email" href="mailto:contato@larevolucionbr.com" data-wow-duration="1000ms" data-wow-delay="0.7s">
+                  <p class="wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.5s">Estamos à disposição para esclarecer dúvidas e sempre abertos à sugestões!</p>
+                  <p class="phone wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.6s">Se prefirir, use o formulário ao lado para enviar a mensagem.</p>
+                  <a class="wow fadeInLeft" title="Enviar uma mensagem por email" href="mailto:contato@larevolucionbr.com" data-wow-duration="600ms" data-wow-delay="0.7s">
                   <i class="fa fa-envelope "></i><span>  contato@lrvbrasil.com</span></a>
                 </div>
               </div>
             </div>     
-            <div class="col-lg-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.5s">
+            <div class="col-lg-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="600ms" data-wow-delay="0.5s">
               <div class="contact-block">
                 <form id="contactForm">
                   <div class="row">
@@ -839,30 +848,30 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjchTw42oDieCVSdDFoKWw6Ua69xAf9AQ&callback=initMap"
     async defer></script>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/terceiros/jquery-min.js?v=1.3"></script>
-    <script src="js/terceiros/popper.min.js?v=1.3"></script>
-    <script src="js/terceiros/bootstrap.min.js?v=1.3"></script>
-    <script src="js/terceiros/jquery.mask.min.js?v=1.3"></script>
-    <script src="js/terceiros/owl.carousel.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.stellar.min.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.nav.js?v=1.3"></script>    
-    <script src="js/terceiros/scrolling-nav.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.easing.min.js?v=1.3"></script>    
-    <script src="js/terceiros/smoothscroll.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.slicknav.min.js?v=1.3"></script>      -->
-    <script src="js/terceiros/wow.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.vide.js?v=1.3"></script>
-    <script src="js/terceiros/jquery.counterup.min.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.3"></script>     -->
-    <script src="js/terceiros/waypoints.min.js?v=1.3"></script>    
-    <script src="js/terceiros/form-validator.min.js?v=1.3"></script>
+    <script src="js/terceiros/jquery-min.js?v=1.4"></script>
+    <script src="js/terceiros/popper.min.js?v=1.4"></script>
+    <script src="js/terceiros/bootstrap.min.js?v=1.4"></script>
+    <script src="js/terceiros/jquery.mask.min.js?v=1.4"></script>
+    <script src="js/terceiros/owl.carousel.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.stellar.min.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.nav.js?v=1.4"></script>    
+    <script src="js/terceiros/scrolling-nav.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.easing.min.js?v=1.4"></script>    
+    <script src="js/terceiros/smoothscroll.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.slicknav.min.js?v=1.4"></script>      -->
+    <script src="js/terceiros/wow.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.vide.js?v=1.4"></script>
+    <script src="js/terceiros/jquery.counterup.min.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.4"></script>     -->
+    <script src="js/terceiros/waypoints.min.js?v=1.4"></script>    
+    <script src="js/terceiros/form-validator.min.js?v=1.4"></script>
     <script src='js/terceiros/instafeed.min.js'></script>
-    <script src="js/nosso/contact-form-script.js?v=1.3"></script>   
-    <script src="js/nosso/main.js?v=1.3"></script>
-    <script src="js/nosso/instafeed-script.js?v=1.3"></script>
-    <script src="js/nosso/coleta.js?v=1.3"></script>
-    <!-- <script src="js/nosso/locais.js?v=1.3"></script> -->
-    <script src="js/nosso/login.js?v=1.3"></script>
+    <script src="js/nosso/contact-form-script.js?v=1.4"></script>   
+    <script src="js/nosso/main.js?v=1.4"></script>
+    <script src="js/nosso/instafeed-script.js?v=1.4"></script>
+    <script src="js/nosso/coleta.js?v=1.4"></script>
+    <!-- <script src="js/nosso/locais.js?v=1.4"></script> -->
+    <script src="js/nosso/login.js?v=1.4"></script>
 
   </body>
 </html>

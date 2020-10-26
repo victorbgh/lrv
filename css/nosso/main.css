@@ -73,6 +73,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
   margin-bottom: 40px;
   text-align: center;
+  /* text-align: justify; */
 }
 
 .section-header .section-title {
@@ -96,11 +97,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .lines {
-  margin: auto;
+  /* margin: auto;
   width: 70px;
   position: relative;
   border-top: 2px solid #ffe600;
-  margin-top: 15px;
+  margin-top: 15px; */
+  
+
+  display: inline-block;
+  width: 170px;
+  background: #ffe600;
+  height: 2px;
 }
 
 /* ==========================================================================
@@ -1067,6 +1074,7 @@ button:focus {
   background: url(../../img/laRevolucionAnatel-min.JPG) fixed no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -1436,13 +1444,13 @@ footer {
 }
 
   .historiaDoTabaco{
-    background-image:linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+    background-image:linear-gradient(45deg, rgba(0,0,0,.5) 50%, rgba(0,0,0,.5) 50%);
     height: 40vh;
     width: 100%;
   }
 
   .cadPontoHeader{
-    background-image:linear-gradient(45deg, rgba(0,0,0,.3) 5%, rgba(0,0,0,.7) 50%);
+    background-image:linear-gradient(45deg, rgba(0,0,0,.5) 5%, rgba(0,0,0,.5) 50%);
     height: 40vh;
     width: 100%;
   }
@@ -1459,8 +1467,9 @@ footer {
   }
 
   .masked {
-    background: rgba(19, 19, 22, 0);
-    background-image: url('../../img/patern-min.png');
+    /* background: rgba(19, 19, 22, 0); */
+    /* background-image: url('../../img/patern-min.png'); */
+    background-image:linear-gradient(45deg, rgba(0,0,0,.5) 50%, rgba(0,0,0,.5) 50%);
     width: 100%;
     height: 100%;
     display: block;
@@ -2353,4 +2362,12 @@ text{
 .imgRodape{
   margin: 0 auto;
   display: grid;
+}
+
+.owl-dot.active span{
+	background: #ffe600 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: #ffe600 !important;
 }

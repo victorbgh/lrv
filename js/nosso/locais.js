@@ -10,6 +10,7 @@ $('document').ready(function(){
             responsive: true,
             orderCellsTop: true,
             select: false,
+            "bPaginate": true,
             "language": {
                 "sEmptyTable": "Nenhum registro encontrado",
                 "sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
@@ -49,6 +50,12 @@ $('document').ready(function(){
                 }
             },
         });
+
+        $('#coletasTable').on( 'page.dt', function () {
+            var info = table.page.info();
+            console.log('Showing page: '+info.page+' of '+info.pages);
+            console.log("tamanho " + table.page.len());
+        } );
      
         // Apply the search
         // table.columns().eq(0).each(function(colIdx) {

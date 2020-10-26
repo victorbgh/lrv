@@ -70,17 +70,17 @@
      <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
  
      
-     <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.3">
-     <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.3"> -->
-     <!-- <link rel="stylesheet" href="css/slicknav.css?v=1.3"> -->
-     <link rel="stylesheet" href="css/terceiros/animate.css?v=1.3">
-     <link rel="stylesheet" href="css/nosso/main.css?v=1.3">    
-     <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.3">
+     <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.4">
+     <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.4"> -->
+     <!-- <link rel="stylesheet" href="css/slicknav.css?v=1.4"> -->
+     <link rel="stylesheet" href="css/terceiros/animate.css?v=1.4">
+     <link rel="stylesheet" href="css/nosso/main.css?v=1.4">    
+     <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.4">
      <link rel="stylesheet" type="text/css" href="media/css/jquery.dataTables.css">
  
      
@@ -187,28 +187,28 @@
       </div>
 
       <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/terceiros/jquery-min.js?v=1.3"></script>
-    <script src="js/terceiros/popper.min.js?v=1.3"></script>
-    <script src="js/terceiros/bootstrap.min.js?v=1.3"></script>
-    <script src="js/terceiros/owl.carousel.js?v=1.3"></script>
-    <script src="js/terceiros/flickity.pkgd.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.stellar.min.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.nav.js?v=1.3"></script>    
-    <script src="js/terceiros/scrolling-nav.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.easing.min.js?v=1.3"></script>    
-    <script src="js/terceiros/smoothscroll.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.slicknav.js?v=1.3"></script>      -->
-    <script src="js/terceiros/wow.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.vide.js?v=1.3"></script>
-    <script src="js/terceiros/jquery.counterup.min.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.3"></script>     -->
+    <script src="js/terceiros/jquery-min.js?v=1.4"></script>
+    <script src="js/terceiros/popper.min.js?v=1.4"></script>
+    <script src="js/terceiros/bootstrap.min.js?v=1.4"></script>
+    <script src="js/terceiros/owl.carousel.js?v=1.4"></script>
+    <script src="js/terceiros/flickity.pkgd.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.stellar.min.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.nav.js?v=1.4"></script>    
+    <script src="js/terceiros/scrolling-nav.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.easing.min.js?v=1.4"></script>    
+    <script src="js/terceiros/smoothscroll.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.slicknav.js?v=1.4"></script>      -->
+    <script src="js/terceiros/wow.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.vide.js?v=1.4"></script>
+    <script src="js/terceiros/jquery.counterup.min.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.4"></script>     -->
     <script src="media/js/jquery.dataTables.js"></script>
-    <script src="js/terceiros/waypoints.min.js?v=1.3"></script>    
-    <script src="js/terceiros/form-validator.min.js?v=1.3"></script>
-    <script src="js/nosso/contact-form-script.js?v=1.3"></script>   
-    <script src="js/nosso/main.js?v=1.3"></script>
-    <script src="js/nosso/locais.js?v=1.3"></script>
-    <script src="js/nosso/login.js?v=1.3"></script>
-    <script src="js/nosso/coleta.js?v=1.3"></script>
+    <script src="js/terceiros/waypoints.min.js?v=1.4"></script>    
+    <script src="js/terceiros/form-validator.min.js?v=1.4"></script>
+    <script src="js/nosso/contact-form-script.js?v=1.4"></script>   
+    <script src="js/nosso/main.js?v=1.4"></script>
+    <script src="js/nosso/locais.js?v=1.4"></script>
+    <script src="js/nosso/login.js?v=1.4"></script>
+    <script src="js/nosso/coleta.js?v=1.4"></script>
 </body>
 </html>

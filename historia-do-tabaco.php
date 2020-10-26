@@ -37,17 +37,17 @@
      <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
  
      
-     <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.3">
-     <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.3">
-     <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.3"> -->
-     <!-- <link rel="stylesheet" href="css/slicknav.css?v=1.3"> -->
-     <link rel="stylesheet" href="css/terceiros/animate.css?v=1.3">
-     <link rel="stylesheet" href="css/nosso/main.css?v=1.3">    
-     <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.3">
+     <link rel="stylesheet" href="css/terceiros/flickity-docs.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/bootstrap.min.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/font-awesome.min.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/line-icons.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/owl.carousel.css?v=1.4">
+     <link rel="stylesheet" href="css/terceiros/owl.theme.css?v=1.4">
+     <!-- <link rel="stylesheet" href="css/magnific-popup.css?v=1.4"> -->
+     <!-- <link rel="stylesheet" href="css/slicknav.css?v=1.4"> -->
+     <link rel="stylesheet" href="css/terceiros/animate.css?v=1.4">
+     <link rel="stylesheet" href="css/nosso/main.css?v=1.4">    
+     <link rel="stylesheet" href="css/terceiros/responsive.css?v=1.4">
  
      
      <!--[if IE]>
@@ -129,7 +129,7 @@
         <div class="row justify-content-md-center">
           <div class="col-md-12">
             <div class="contents text-center">
-              <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">HISTÓRIA DO TABACO</h4>
+              <h4 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">HISTÓRIA DO TABACO</h4>
             </div>
           </div>
         </div> 
@@ -141,10 +141,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img class="img-fluid center wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.5s" src="img/tabaco-indio-lrv.jpg" width="70%" height="auto" alt="LRV Brasil - O fumo era tradicional nos indigenas"> 
+          <img class="img-fluid center wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.5s" src="img/tabaco-indio-lrv.jpg" width="70%" height="auto" alt="LRV Brasil - O fumo era tradicional nos indigenas"> 
         </div>
-        <div class="col-md-6 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.5s">
-          <div class="section-header" >          
+        <div class="col-md-6 wow fadeInRight" data-wow-duration="600ms" data-wow-delay="0.5s">
+          <div class="section-header" style="text-align: justify;">          
             <p class="section-subtitle">
               O tabaco era usado pelos indígenas em rituais religiosos com o objetivo de purificar, contemplar, proteger e fortalecer os 
               ímpetos guerreiros. Os termos tabacum e tabaco vêm do nome de um tipo de junco vazado que era usado pelos indígenas para inalar o fumo.
@@ -163,25 +163,25 @@
   <section class="">
     <div class="container">
       <div class="section-header">          
-        <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.5s">Tabaco para enrolar</h1>
-        <hr class="lines">
+        <h1 class="section-title wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">Tabaco para enrolar</h1>
+        <span class="lines"></span>
         <div class="row">
-          <div class="col-md-6" style="color: #000;">
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.6s">
+          <div class="col-md-6" style="color: #000; text-align: justify;">
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
               A cultura do tabaco para enrolar, muito popular na Europa (desde século XVII) é muito comum no meio rural e vem ganhando cada vez mais adeptos 
               nas áreas urbanas do brasil.
             </p>
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.7s">
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">
               Essa cultura nasceu por necessidade. Devido ao elevado preço dos cigarros, apenas a nobreza tinha acesso. O povo, então, passou enrolar o seu próprio tabaco.
             </p>
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.8s">
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.8s">
               Um dos principais motivos de tantas pessoas aderirem essa cultura é o ritual. A seleção do tabaco, escolha da seda e o ato de enrolar antes de fumar, torna a experiência única.
             </p>
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.9s">
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">
               A LRV apoia a cultura do tabaco para enrolar. <i>Nosso</i> tabaco é produzido artesanalmente, possuindo mão de obra 100% brasileira. As folhas passam por uma rigorosa seleção e classificação, garantindo um produto extremamente qualitativo
             </p>
           </div>
-          <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.6s">
+          <div class="col-md-6 wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
             <br>
             <img class="img-fluid center" src="img/tabaco-da-onca-min.jpg" width="100%" height="auto" alt="Tabaco bolado LRV Brasil"> 
           </div>
@@ -263,27 +263,27 @@
       </div>
 
       <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/terceiros/jquery-min.js?v=1.3"></script>
-    <script src="js/terceiros/popper.min.js?v=1.3"></script>
-    <script src="js/terceiros/bootstrap.min.js?v=1.3"></script>
-    <script src="js/terceiros/owl.carousel.js?v=1.3"></script>
-    <script src="js/terceiros/flickity.pkgd.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.stellar.min.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.nav.js?v=1.3"></script>    
-    <script src="js/terceiros/scrolling-nav.js?v=1.3"></script>    
-    <script src="js/terceiros/jquery.easing.min.js?v=1.3"></script>    
-    <script src="js/terceiros/smoothscroll.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.slicknav.js?v=1.3"></script>      -->
-    <script src="js/terceiros/wow.js?v=1.3"></script>   
-    <script src="js/terceiros/jquery.vide.js?v=1.3"></script>
-    <script src="js/terceiros/jquery.counterup.min.js?v=1.3"></script>    
-    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.3"></script>     -->
-    <script src="js/terceiros/waypoints.min.js?v=1.3"></script>    
-    <script src="js/terceiros/form-validator.min.js?v=1.3"></script>
-    <script src="js/nosso/contact-form-script.js?v=1.3"></script>   
-    <script src="js/nosso/main.js?v=1.3"></script>
-    <script src="js/nosso/locais.js?v=1.3"></script>
-    <script src="js/nosso/login.js?v=1.3"></script>
-    <script src="js/nosso/coleta.js?v=1.3"></script>
+    <script src="js/terceiros/jquery-min.js?v=1.4"></script>
+    <script src="js/terceiros/popper.min.js?v=1.4"></script>
+    <script src="js/terceiros/bootstrap.min.js?v=1.4"></script>
+    <script src="js/terceiros/owl.carousel.js?v=1.4"></script>
+    <script src="js/terceiros/flickity.pkgd.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.stellar.min.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.nav.js?v=1.4"></script>    
+    <script src="js/terceiros/scrolling-nav.js?v=1.4"></script>    
+    <script src="js/terceiros/jquery.easing.min.js?v=1.4"></script>    
+    <script src="js/terceiros/smoothscroll.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.slicknav.js?v=1.4"></script>      -->
+    <script src="js/terceiros/wow.js?v=1.4"></script>   
+    <script src="js/terceiros/jquery.vide.js?v=1.4"></script>
+    <script src="js/terceiros/jquery.counterup.min.js?v=1.4"></script>    
+    <!-- <script src="js/jquery.magnific-popup.min.js?v=1.4"></script>     -->
+    <script src="js/terceiros/waypoints.min.js?v=1.4"></script>    
+    <script src="js/terceiros/form-validator.min.js?v=1.4"></script>
+    <script src="js/nosso/contact-form-script.js?v=1.4"></script>   
+    <script src="js/nosso/main.js?v=1.4"></script>
+    <script src="js/nosso/locais.js?v=1.4"></script>
+    <script src="js/nosso/login.js?v=1.4"></script>
+    <script src="js/nosso/coleta.js?v=1.4"></script>
 </body>
 </html>

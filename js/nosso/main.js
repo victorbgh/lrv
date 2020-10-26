@@ -109,17 +109,31 @@
     window.location.href.indexOf('pdv-ativos') == -1 && 
     window.location.href.indexOf('edit-pdv') == -1){
       
-      var carousel = document.querySelector('[data-carousel-lrv]');
-      var slides = document.getElementsByClassName('#a-revolucao carousel-cell');
-      var flkty = new Flickity(carousel, options);
+      // var carousel = document.querySelector('[data-carousel-lrv]');
+      // var slides = document.getElementsByClassName('#a-revolucao carousel-cell');
+      // var flkty = new Flickity(carousel, options);
+
+      $(".owl-carousel").owlCarousel({
+        items:1,
+        autoplay:true,
+        margin:30,
+        loop:true,
+        center: true,
+        dots:true,
+        nav:false,
+        autoplayTimeout: 15500,
+        // autoHeight:true
+      //  navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ]
+    });
+
       
-      flkty.on('scroll', function () {
-      flkty.slides.forEach(function (slide, i) {
-        var image = slides[i];
-        var x = (slide.target + flkty.x) * -1/3;
-      //   image.style.backgroundPosition = x + 'px';
-      });
-      });
+      // flkty.on('scroll', function () {
+      // flkty.slides.forEach(function (slide, i) {
+      //   var image = slides[i];
+      //   var x = (slide.target + flkty.x) * -1/3;
+      // //   image.style.backgroundPosition = x + 'px';
+      // });
+      // });
     }
 
   /* 
