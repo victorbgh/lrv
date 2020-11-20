@@ -68,59 +68,120 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#home-area">Home</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#home-area" lang="pt">Home</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#home-area" lang="es">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#services">Sobre</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#services" lang="pt">Sobre</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#services" lang="es">Sobre nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll active" href="<?php echo url_site;?>#culturaTabaco" style="background: #ffe600; color: #fff;">Cultura do Tabaco</a>
+                <a class="nav-link page-scroll active" href="<?php echo url_site;?>#culturaTabaco" style="background: #ffe600; color: #fff;" lang="pt">Cultura do Tabaco</a>
+                <a class="nav-link page-scroll active" href="<?php echo url_site;?>#culturaTabaco" style="background: #ffe600; color: #fff;" lang="es">Cultura del tabaco</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao">A Revolução</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="pt">A Revolução</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="es">La Revolución</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#testimonial">Registro</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#testimonial" lang="pt">Registro</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#testimonial" lang="es">Grabar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#portfolios">Galeria</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#portfolios" lang="pt">Galeria</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#portfolios" lang="es">Galería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#encontrar">Onde encontrar</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#encontrar" lang="pt">Onde encontrar</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#encontrar" lang="es">Donde encontrar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact">Contato</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact" lang="pt">Contato</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact" lang="es">Contacto</a>
               </li>
             </ul>
-            <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
+            <!-- <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
               <ul>
                 <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
                 <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
               </ul>
+            </div> -->
+            <div id="lang_selector" class="language-dropdown">
+              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 44px; margin-left: 30px;">
+                <span class="flag"></span>
+              </label>
+              <ul class="lang-list" style="margin-left: 30px;">
+                <li class="lang lang-es" title="EN">
+                  <span class="flag"></span>
+                </li>
+                <li class="lang lang-pt selected" title="PT">
+                  <span class="flag"></span>
+                </li>
+                
+              </ul>
             </div>
+
           </div>
         </div>
 
         <div class="menu-overlay"></div>
-        <button class="menu-open" style="margin-left: 90%;">
+        <button class="menu-open form-control" style="margin-left: 90%;">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
 
         <div class="side-menu-wrapper">
           <a style="font-size: 70px;" href="#" class="menu-close">×</a>
           <ul>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#home-area" rel="nofollow">Home</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#services" rel="nofollow">Sobre</a></li>
-            <li><a class="page-scroll active ativo" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow">Cultura do Tabaco</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#a-revolucao" rel="nofollow">A Revolução</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#testimonial" rel="nofollow">Registro</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#portfolios" rel="nofollow">Galeria</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#encontrar" rel="nofollow">Onde encontrar</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#contact" rel="nofollow">Contato</a></li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#home-area" rel="nofollow" lang="pt">Home</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#home-area" rel="nofollow" lang="es">Home</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#services" rel="nofollow" lang="pt">Sobre</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#services" rel="nofollow" lang="es">Sobre nosotros</a>
+            </li>
+            <li>
+              <a class="page-scroll active ativo" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow" lang="pt">Cultura do Tabaco</a>
+              <a class="page-scroll active ativo" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow" lang="es">Cultura del tabaco</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="pt">A Revolução</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="es">La Revolución</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#testimonial" rel="nofollow" lang="pt">Registro</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#testimonial" rel="nofollow" lang="es">Grabar</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#portfolios" rel="nofollow" lang="pt">Galeria</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#portfolios" rel="nofollow" lang="es">Galería</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#encontrar" rel="nofollow" lang="pt">Onde encontrar</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#encontrar" rel="nofollow" lang="es">Donde encontrar</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#contact" rel="nofollow" lang="pt">Contato</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#contact" rel="nofollow" lang="es">Contacto</a>
+            </li>
             <ul style="display: inline-flex; margin-top: 15px;">
               <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
+            <div id="lang_selector" class="language-dropdown" style="display: block;">
+              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 15px; margin-left: 10px;">
+                <span class="flag"></span>
+              </label>
+              <ul class="lang-list" style="margin-left: 10px;">
+                <li class="lang lang-es" title="EN">
+                  <span class="flag"></span>
+                </li>
+                <li class="lang lang-pt selected" title="PT">
+                  <span class="flag"></span>
+                </li>
+                
+              </ul>
+            </div>
           </ul>
         </div>
 
@@ -129,7 +190,7 @@
         <div class="row justify-content-md-center">
           <div class="col-md-12">
             <div class="contents text-center">
-              <h4 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">HISTÓRIA DO TABACO</h4>
+              <h4 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">HISTÓRIA DO TABACO</span> <span lang="es">HISTORIA DEL TABACO</span></h4>
             </div>
           </div>
         </div> 
@@ -146,12 +207,28 @@
         <div class="col-md-6 wow fadeInRight" data-wow-duration="600ms" data-wow-delay="0.5s">
           <div class="section-header" style="text-align: justify;">          
             <p class="section-subtitle">
+            <span lang="pt">
               O tabaco era usado pelos indígenas em rituais religiosos com o objetivo de purificar, contemplar, proteger e fortalecer os 
               ímpetos guerreiros. Os termos tabacum e tabaco vêm do nome de um tipo de junco vazado que era usado pelos indígenas para inalar o fumo.
+            </span> 
+            <span lang="es">
+              El tabaco era utilizado por los indígenas en rituales religiosos con el fin de purificar, contemplar, proteger y 
+              fortalecer los impulsos guerreros. Los términos tabacum y tabaco provienen del nombre de un tipo de caña hueca que usaban 
+              los indígenas para inhalar humo.
+            </span>
+              
             </p>
             <p class="section-subtitle">
-              Levado para a Europa nas navegações de Cristóvão Colombo, a rainha da França, Catarina de Médicis, passou a usar o fumo em pó para curar enxaquecas. 
-              O uso do tabaco para esta finalidade foi recomendado por Jean Nicot (vem daí o nome do seu princípio ativo, a nicotina). 
+              <span lang="pt">
+                Levado para a Europa nas navegações de Cristóvão Colombo, a rainha da França, Catarina de Médicis, passou a usar o fumo em pó para curar enxaquecas. 
+                O uso do tabaco para esta finalidade foi recomendado por Jean Nicot (vem daí o nome do seu princípio ativo, a nicotina). 
+              </span> 
+              <span lang="es">
+                Llevada a Europa en los viajes de Cristóbal Colón, la reina de Francia, Catalina de Médicis, comenzó a usar tabaco en 
+                polvo para curar las migrañas. Jean Nicot recomendó el uso de tabaco para este fin (de ahí el nombre de su ingrediente 
+                activo, nicotina).
+              </span>
+              
             </p>
             <!-- <p class="section-subtitle"> -->
           </div>
@@ -163,22 +240,34 @@
   <section class="">
     <div class="container">
       <div class="section-header">          
-        <h1 class="section-title wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">Tabaco para enrolar</h1>
+        <h1 class="section-title wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s"><span lang="pt">Tabaco para enrolar</span> <span lang="es">Tabaco de liar</span></h1>
         <span class="lines"></span>
         <div class="row">
           <div class="col-md-6" style="color: #000; text-align: justify;">
             <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
-              A cultura do tabaco para enrolar, muito popular na Europa (desde século XVII) é muito comum no meio rural e vem ganhando cada vez mais adeptos 
-              nas áreas urbanas do brasil.
+              <span lang="pt">
+                A cultura do tabaco para enrolar, muito popular na Europa (desde século XVII) é muito comum no meio rural e vem ganhando cada vez mais adeptos 
+                nas áreas urbanas do brasil.
+              </span> 
+              <span lang="es">            
+                La cultura del tabaco de liar, muy popular en Europa (desde el siglo XVII) es muy común en las zonas rurales y ha 
+                ido ganando cada vez más adeptos en las zonas urbanas de Brasil.
+              </span>
             </p>
             <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">
-              Essa cultura nasceu por necessidade. Devido ao elevado preço dos cigarros, apenas a nobreza tinha acesso. O povo, então, passou enrolar o seu próprio tabaco.
+              <span lang="pt">Essa cultura nasceu por necessidade. Devido ao elevado preço dos cigarros, apenas a nobreza tinha acesso. O povo, então, passou enrolar o seu próprio tabaco.</span> 
+              <span lang="es">
+                Esta cultura nació por necesidad. Debido al alto precio de los cigarrillos, solo la nobleza tenía acceso. Entonces la gente comenzó a liar su propio tabaco.
+              </span>
+              
             </p>
             <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.8s">
-              Um dos principais motivos de tantas pessoas aderirem essa cultura é o ritual. A seleção do tabaco, escolha da seda e o ato de enrolar antes de fumar, torna a experiência única.
+              <span lang="pt">Um dos principais motivos de tantas pessoas aderirem essa cultura é o ritual. A seleção do tabaco, escolha da seda e o ato de enrolar antes de fumar, torna a experiência única.</span> 
+              <span lang="es">Una de las principales razones por las que tanta gente se adhiere a esta cultura es el ritual. La selección del tabaco, la elección de la seda y el rizado antes de fumar hacen que la experiencia sea única.</span>
             </p>
             <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">
-              A LRV apoia a cultura do tabaco para enrolar. <i>Nosso</i> tabaco é produzido artesanalmente, possuindo mão de obra 100% brasileira. As folhas passam por uma rigorosa seleção e classificação, garantindo um produto extremamente qualitativo
+              <span lang="pt">A LRV apoia a cultura do tabaco para enrolar. <i>Nosso</i> tabaco é produzido artesanalmente, possuindo mão de obra 100% brasileira. As folhas passam por uma rigorosa seleção e classificação, garantindo um produto extremamente qualitativo</span> 
+              <span lang="es">LRV apoya el cultivo de tabaco para liar. <i> Nuestro </i> tabaco se produce a mano, con mano de obra 100% brasileña. Las hojas se someten a una rigurosa selección y clasificación, garantizando un producto de extrema calidad.</span>
             </p>
           </div>
           <div class="col-md-6 wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
@@ -198,28 +287,28 @@
           <div class="col-lg-8 col-sm-8 col-xs-12">
             <ul class="footer-links">
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#home-area">Home</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#home-area"><span lang="pt">Home</span> <span lang="es">Home</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#services">Sobre</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#services"><span lang="pt">Sobre</span> <span lang="es">Sobre nosotros</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#culturaTabaco">Cultura do Tabaco</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#culturaTabaco"><span lang="pt">Cultura do Tabaco</span> <span lang="es">Cultura del tabaco</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#a-revolucao">A Revolução</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#a-revolucao"><span lang="pt">A Revolução</span> <span lang="es">La revolución</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#testimonial">Registro</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#testimonial"><span lang="pt">Registro</span> <span lang="es">Grabar</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#portfolios">Galeria</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#portfolios"><span lang="pt">Galeria</span> <span lang="es">Galería</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#encontrar">Onde encontrar</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#encontrar"><span lang="pt">Onde encontrar</span> <span lang="es">Donde encontrar</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#contact">Contato</a>
+                <a class="page-scroll" href="<?php echo url_site;?>#contact"><span lang="pt">Contato</span> <span lang="es">Contacto</span></a>
               </li>
             </ul>
           </div>
@@ -230,7 +319,10 @@
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
             <div class="copyright">
-                <p><?php echo Copyright;?></p>  
+                <p>
+                  <span lang="pt">© Copyright LRV Brasil 2020 Todos os direitos reservados</span> 
+                  <span lang="es">© Copyright LRV Brasil 2020 Todos los derechos reservados</span>
+                </p>  
             </div>
           </div>
         </div>
@@ -251,16 +343,17 @@
       <div id="laRevolucionConfirmarIdade" class="overlayConfirm">
         <div class="imagemLRV">
           <div class="overlayConfirm-content">
-            <a class="" style="font-weight: bold;">VOCÊ TEM MAIS DE 18 ANOS?</a>
-            <div class="lrv-buttons-age">
+            <a class="" style="font-weight: bold;"><span lang="pt">VOCÊ TEM MAIS DE 18 ANOS?</span> <span lang="es">¿ES MAYOR DE 18 AÑOS?</span></a>
+            <div class="row commands lrv-buttons-age">
               <button class="text-center btn btn-success" onclick="closeNav()"
-                style="margin-right: 30px; cursor: pointer; font-size: 25px;">Sim</button>
+                style="margin-right: 30px; cursor: pointer; font-size: 25px;"><span lang="pt">Sim</span> <span lang="es">Si</span></button>
               <button class="text-center btn btn-danger" onclick="historyBack()"
-                style="margin-left: 30px; cursor: pointer; font-size: 25px;">Não</button>
+                style="margin-left: 30px; cursor: pointer; font-size: 25px;"><span lang="pt">Não</span> <span lang="es">No</span></button>
             </div>
           </div>
         </div>
       </div>
+      
 
       <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/terceiros/jquery-min.js?v=1.4"></script>

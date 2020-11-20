@@ -2,9 +2,9 @@
 		// URL LOCAL
 		// define("url_site", "http://localhost/lrv/");
         // URL TESTE
-		// define("url_site", "https://lrvbrasil.herokuapp.com/");
+		define("url_site", "https://lrvbrasil.herokuapp.com/");
 		// URL PRODUCAO
-		define("url_site", "https://lrvbrasil.com/");
+		// define("url_site", "https://lrvbrasil.com/");
 
 		// BANCO DE TESTE
 		define("db_host", "localhost");

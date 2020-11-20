@@ -2,7 +2,7 @@
     var feed = new Instafeed({
         target: 'instafeed',
         resolution: 'standard_resolution',
-        accessToken: 'IGQVJVM193NjBkMmlaOHR4dkFqWGFDVUpkVzM3dUNwUFVBNnZAKRE1aWmx0UjAxNFhpMTRvNkRGM2FYUmUyQUhxMGpoZAkpoNlVRMEVBU2FIb0lxeWxGa2d4ckg2UkEzUFY5d0lPcmFoLUNhVXc4VV9pZAgZDZD',
+        accessToken: 'IGQVJWeENVNlBKc2ZARQ0JwVEQ4MGdBMHhvLUxONXZA4ak9aS0RtS2hvbkoxMWNwRy1BX0VxMWViUkNxMEh0aGhGT2RDcUwwY2x2Vk1ndGhUanh1bnNtVXNDZA1VxcmR5anV0ZAUh4c1BsbTJBbV9HQmJCbAZDZD',
         template: '<a href="{{link}}" title="{{caption}}" target="_blank"><img alt="LRV publicação instagram {{timestamp}}" src="{{image}}" /><div class="rollover"></div></a>',
         limit: 12,
         debug: false,

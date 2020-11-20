@@ -116,59 +116,118 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#home-area">Home</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#home-area" lang="pt">Home</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#home-area" lang="es">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#services">Sobre</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#services" lang="pt">Sobre</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#services" lang="es">Sobre nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#culturaTabaco">Cultura do Tabaco</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#culturaTabaco" lang="pt">Cultura do Tabaco</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#culturaTabaco" lang="es">Cultura del tabaco</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#a-revolucao">A Revolução</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="pt">A Revolução</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="es">La Revolución</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#testimonial">Registro</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#testimonial" lang="pt">Registro</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#testimonial" lang="es">Grabar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#portfolios">Galeria</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#portfolios" lang="pt">Galeria</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#portfolios" lang="es">Galería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#encontrar">Onde encontrar</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#encontrar" lang="pt">Onde encontrar</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#encontrar" lang="es">Donde encontrar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="index.html#contact">Contato</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact" lang="pt">Contato</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact" lang="es">Contacto</a>
               </li>
             </ul>
-            <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
+            <!-- <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
               <ul>
                 <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
                 <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div> -->
+            <div id="lang_selector" class="language-dropdown">
+              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 44px; margin-left: 30px;">
+                <span class="flag"></span>
+              </label>
+              <ul class="lang-list" style="margin-left: 30px;">
+                <li class="lang lang-es" title="EN">
+                  <span class="flag"></span>
+                </li>
+                <li class="lang lang-pt selected" title="PT">
+                  <span class="flag"></span>
+                </li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="menu-overlay"></div>
-        <button class="menu-open" style="margin-left: 90%;">
+        <button class="menu-open form-control" style="margin-left: 90%;">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
 
         <div class="side-menu-wrapper">
           <a style="font-size: 70px;" href="#" class="menu-close">×</a>
           <ul>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#home-area" rel="nofollow">Home</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#services" rel="nofollow">Sobre</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow">Cultura do Tabaco</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#a-revolucao" rel="nofollow">A Revolução</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#testimonial" rel="nofollow">Registro</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#portfolios" rel="nofollow">Galeria</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#encontrar" rel="nofollow">Onde encontrar</a></li>
-            <li><a class="page-scroll" href="<?php echo url_site;?>#contact" rel="nofollow">Contato</a></li>
+          <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#home-area" rel="nofollow" lang="pt">Home</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#home-area" rel="nofollow" lang="es">Home</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#services" rel="nofollow" lang="pt">Sobre</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#services" rel="nofollow" lang="es">Sobre nosotros</a>
+            </li>
+            <li>
+              <a class="page-scroll active ativo" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow" lang="pt">Cultura do Tabaco</a>
+              <a class="page-scroll active ativo" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow" lang="es">Cultura del tabaco</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="pt">A Revolução</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="es">La Revolución</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#testimonial" rel="nofollow" lang="pt">Registro</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#testimonial" rel="nofollow" lang="es">Grabar</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#portfolios" rel="nofollow" lang="pt">Galeria</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#portfolios" rel="nofollow" lang="es">Galería</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#encontrar" rel="nofollow" lang="pt">Onde encontrar</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#encontrar" rel="nofollow" lang="es">Donde encontrar</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#contact" rel="nofollow" lang="pt">Contato</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#contact" rel="nofollow" lang="es">Contacto</a>
+            </li>
             <ul style="display: inline-flex; margin-top: 15px;">
               <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-facebook"></i></a></li>
               <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
+            <div id="lang_selector" class="language-dropdown" style="display: block;">
+              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 15px; margin-left: 10px;">
+                <span class="flag"></span>
+              </label>
+              <ul class="lang-list" style="margin-left: 10px;">
+                <li class="lang lang-es" title="EN">
+                  <span class="flag"></span>
+                </li>
+                <li class="lang lang-pt selected" title="PT">
+                  <span class="flag"></span>
+                </li>
+                
+              </ul>
+            </div>
           </ul>
         </div>
 
@@ -177,7 +236,7 @@
         <div class="row justify-content-md-center">
           <div class="col-md-12">
             <div class="contents text-center">
-              <h4 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">CADASTRE SEU PDV</h4>
+              <h4 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">CADASTRE SEU PDV</span> <span lang="es">REGISTRE SU PDV</span></h4>
             </div>
           </div>
         </div> 
@@ -281,7 +340,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <select name="select" class="form-control" id="tipoPonto" style="height: auto !important;" required>
-                                            <option value="tipoPonto" disabled selected>Tipo de ponto de venda</option> 
+                                            <option value="tipoPonto" id="tipoPontoOptionCad" disabled selected>Tipo de ponto de venda</option> 
                                             <option value="Tabacaria">Tabacaria</option>
                                             <option value="Head Shop">Head Shop</option>
                                             <option value="Padaria">Padaria</option>
@@ -309,7 +368,7 @@
                                   <div class="form-group" style="display: flex;">
                                       <div class="col-md-4" style=" padding-left: 0px;">
                                         <select name="select" class="form-control" id="tipoRedeSocial" style="height: auto !important;">
-                                            <option value="tipoRedeSocial" disabled selected>Rede social</option> 
+                                            <option id="redeSocial" value="tipoRedeSocial" disabled selected>Rede social</option> 
                                             <option value="Instagram">Instagram</option>
                                             <option value="Facebook">Facebook</option>
                                             <option value="Twitter">Twitter</option>
@@ -324,19 +383,19 @@
                                 <div class="col-md-12">
                                     <div class="form-group"> 
                                         <input type="checkbox" id="delivery" class="" name="delivery">
-                                        <label for="delivery"> Possui delivery?</label>
+                                        <label for="delivery" id="deliveryLabel"> Possui delivery?</label>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group"> 
                                         <input type="checkbox" id="vendaOnline" class="" name="vendaOnline">
-                                        <label for="vendaOnline"> Vende online?</label>
+                                        <label id="vendaOlineLabel" for="vendaOnline"> Vende online?</label>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                   <div class="form-group"> 
                                       <input type="checkbox" id="definirMapa" class="" name="definirMapa">
-                                      <label for="definirMapa"> Definir a localização pelo mapa (Opcional)</label>
+                                      <label id="definirMapa" for="definirMapa"> Definir a localização pelo mapa (Opcional)</label>
                                   </div>
                                 </div>
                               <div class="col-md-12" id="divCadMap">
@@ -350,7 +409,12 @@
                                   <input type="hidden" placeholder="Latitude" id="lat" class="form-control latitude" name="lat" required data-error="Por favor, digite a latitude">
                                   <input type="hidden" placeholder="Longitude" id="lng" class="form-control longitude" name="lng" required data-error="Por favor, digite a longitude">
                               <div class="submit-button text-center" style="margin: 20px auto;">
-                                  <button style="color: #fff !important;" type="button" class="btn btn-success" onclick="registrarPonto()">Cadastrar</button>
+                                  <span lang="pt">
+                                    <button style="color: #fff !important;" type="button" class="btn btn-success" onclick="registrarPonto()">Cadastrar</button>
+                                  </span>
+                                  <span lang="es">
+                                    <button style="color: #fff !important;" type="button" class="btn btn-success" onclick="registrarPonto()">Registrar</button>
+                                  </span>
                                   <div id="msgSubmit" class="h3 text-center hidden"></div> 
                                   <div class="clearfix"></div> 
                               </div>
@@ -374,28 +438,28 @@
           <div class="col-lg-8 col-sm-8 col-xs-12">
             <ul class="footer-links">
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#home-area">Home</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#home-area"><span lang="pt">Home</span> <span lang="es">Home</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#services">Sobre</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#services"><span lang="pt">Sobre</span> <span lang="es">Sobre nosotros</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#culturaTabaco">Cultura do Tabaco</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#culturaTabaco"><span lang="pt">Cultura do Tabaco</span> <span lang="es">Cultura del tabaco</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#a-revolucao">A Revolução</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#a-revolucao"><span lang="pt">A Revolução</span> <span lang="es">La revolución</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#testimonial">Registro</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#testimonial"><span lang="pt">Registro</span> <span lang="es">Grabar</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#portfolios">Galeria</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#portfolios"><span lang="pt">Galeria</span> <span lang="es">Galería</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#encontrar">Onde encontrar</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#encontrar"><span lang="pt">Onde encontrar</span> <span lang="es">Donde encontrar</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#contact">Contato</a>
+              <a class="page-scroll" href="<?php echo url_site;?>#contact"><span lang="pt">Contato</span> <span lang="es">Contacto</span></a>
               </li>
             </ul>
           </div>
@@ -406,7 +470,10 @@
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
             <div class="copyright">
-                <p><?php echo Copyright;?></p>  
+                <p>
+                  <span lang="pt">© Copyright LRV Brasil 2020 Todos os direitos reservados</span> 
+                  <span lang="es">© Copyright LRV Brasil 2020 Todos los derechos reservados</span>
+                </p>   
             </div>
           </div>
         </div>
@@ -427,12 +494,12 @@
       <div id="laRevolucionConfirmarIdade" class="overlayConfirm">
         <div class="imagemLRV">
           <div class="overlayConfirm-content">
-            <a class="" style="font-weight: bold;">VOCÊ TEM MAIS DE 18 ANOS?</a>
-            <div class="lrv-buttons-age">
+            <a class="" style="font-weight: bold;"><span lang="pt">VOCÊ TEM MAIS DE 18 ANOS?</span> <span lang="es">¿ES MAYOR DE 18 AÑOS?</span></a>
+            <div class="row commands lrv-buttons-age">
               <button class="text-center btn btn-success" onclick="closeNav()"
-                style="margin-right: 30px; cursor: pointer; font-size: 25px;">Sim</button>
+                style="margin-right: 30px; cursor: pointer; font-size: 25px;"><span lang="pt">Sim</span> <span lang="es">Si</span></button>
               <button class="text-center btn btn-danger" onclick="historyBack()"
-                style="margin-left: 30px; cursor: pointer; font-size: 25px;">Não</button>
+                style="margin-left: 30px; cursor: pointer; font-size: 25px;"><span lang="pt">Não</span> <span lang="es">No</span></button>
             </div>
           </div>
         </div>

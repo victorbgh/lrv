@@ -125,16 +125,7 @@
         // autoHeight:true
       //  navText:["<i class='fas fa-long-arrow-alt-left'></i>","<i class='fas fa-long-arrow-alt-right'></i>" ]
     });
-
-      
-      // flkty.on('scroll', function () {
-      // flkty.slides.forEach(function (slide, i) {
-      //   var image = slides[i];
-      //   var x = (slide.target + flkty.x) * -1/3;
-      // //   image.style.backgroundPosition = x + 'px';
-      // });
-      // });
-    }
+  }
 
   /* 
    SMOOTH SCROLL
@@ -221,9 +212,99 @@
 
 
   
+
   
   
 }(jQuery));
+
+$(document).ready(function() {
+
+  
+  
+  $(".lang-flag").click(function(){
+    $(".language-dropdown").toggleClass("open");
+  });
+  
+  
+  var lang = getCookie('lang');
+  if(lang == undefined || lang == "pt"){
+    $('[lang="es"]').remove();
+    $('[lang="pt"]').show();
+
+    $('#cidadeOption').text('Cidade');
+    $('#tipoOption').text('Tipo de ponto de venda');
+
+    $('.lang-pt').addClass("selected");
+    $('.lang-es').removeClass("selected");
+
+    $(".language-dropdown").find(".lang-flag").addClass("lang-pt").removeClass("lang-es");
+    $("#lang_selected").html("<p>PT</p>");
+    $(".language-dropdown").removeClass("open");
+
+  }else if(lang == "es"){
+
+    if(document.title == 'Cadastre seu PDV - LRV Brasil'){
+      document.title = 'Registre su PDV - LRV Brasil';
+    }else if(document.title == 'LRV Brasil - O verdadeiro destalado'){
+      document.title = 'LRV Brasil - El verdadero independiente';
+    }
+
+    $('[lang="pt"]').hide();
+    $('[lang="es"]').show();
+
+    $('#cidadeOption').text('Ciudad');
+    $('#tipoOption').text('Tipo de punto de venta');
+    $("#name").attr("placeholder", "Su nombre");
+    $("#email").attr("placeholder", "Su e-mail");
+    $("#message").attr("placeholder", "Su mensaje");
+
+    $('#msgSucessoCad').text('Registro exitoso, el punto está en análisis y pronto estará disponible!');
+    $("#nome").attr("placeholder", "Nombre de la tienda");
+    $("#telContatoLoja").attr("placeholder", "Telefone de contato");
+    $("#bairro").attr("placeholder", "Barrio");
+    $("#cidade").attr("placeholder", "Ciudad");
+    $("#tipoPontoOptionCad").text("Tipo de punto de venta");
+    $("#deliveryLabel").text("Tiene entrega?");
+    $("#definirMapa").text("Establecer la ubicación por el mapa (Opcional)");
+
+    $('.lang-es').addClass("selected");
+    $('.lang-pt').removeClass("selected");
+
+    $(".language-dropdown").find(".lang-flag").addClass("lang-es").removeClass("lang-pt");
+    $("#lang_selected").html("<p>ES</p>");
+
+    $(".language-dropdown").removeClass("open");
+  }
+
+  $("ul.lang-list li").click(function(){
+    
+    $('[lang="pt"]').toggle();
+    $('[lang="es"]').toggle();
+
+    $("ul.lang-list li").removeClass("selected");
+    $(this).addClass("selected");
+    if($(this).hasClass('lang-es')){
+    
+      $(".language-dropdown").find(".lang-flag").addClass("lang-es").removeClass("lang-pt");
+      $("#lang_selected").html("<p>ES</p>");
+      
+      var lang = "es";
+      setCookie( 'lang', lang, 10000 );
+      window.location.reload();
+    }else if($(this).hasClass('lang-pt')){
+
+      $(".language-dropdown").find(".lang-flag").addClass("lang-pt").removeClass("lang-es");
+      $("#lang_selected").html("<p>PT</p>");
+
+      var lang = "pt";
+      setCookie( 'lang', lang, 10000 );
+      window.location.reload();
+
+    }
+    $(".language-dropdown").removeClass("open");
+  });
+});
+
 
 function openNav() {
   document.getElementById("laRevolucionConfirmarIdade").style.width = "100%";
@@ -305,4 +386,25 @@ function formataCampo(campo, Mascara, evento) {
 
 function redirecionarCadPonto(){
   window.open('cadastrar-ponto.php', '_blank');
+}
+
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
 }

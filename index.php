@@ -32,7 +32,7 @@
     <meta name="robots" content="index, follow">
     <meta name="msvalidate.01" content="30BDCB2D32C5BC2956AE08F9227D140E" />
 
-    <title> LRV Brasil - O verdadeiro destalado!</title>
+    <title lang="pt"> LRV Brasil - O verdadeiro destalado</title>
 
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     
@@ -72,59 +72,123 @@
           <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#home-area">Home</a>
+                <a class="nav-link page-scroll" href="#home-area" lang="pt">Home</a>
+                <a class="nav-link page-scroll" href="#home-area" lang="es">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#services">Sobre</a>
+                <a class="nav-link page-scroll" href="#services" lang="pt">Sobre</a>
+                <a class="nav-link page-scroll" href="#services" lang="es">Sobre nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#culturaTabaco">Cultura do Tabaco</a>
+                <a class="nav-link page-scroll" href="#culturaTabaco" lang="pt">Cultura do Tabaco</a>
+                <a class="nav-link page-scroll" href="#culturaTabaco" lang="es">Cultura del tabaco</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#a-revolucao">A Revolução</a>
+                <a class="nav-link page-scroll" href="#a-revolucao" lang="pt">A Revolução</a>
+                <a class="nav-link page-scroll" href="#a-revolucao" lang="es">La Revolución</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#testimonial">Registro</a>
+                <a class="nav-link page-scroll" href="#testimonial" lang="pt">Registro</a>
+                <a class="nav-link page-scroll" href="#testimonial" lang="es">Grabar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#portfolios">Galeria</a>
+                <a class="nav-link page-scroll" href="#portfolios" lang="pt">Galeria</a>
+                <a class="nav-link page-scroll" href="#portfolios" lang="es">Galería</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#encontrar">Onde encontrar</a>
+                <a class="nav-link page-scroll" href="#encontrar" lang="pt">Onde encontrar</a>
+                <a class="nav-link page-scroll" href="#encontrar" lang="es">Donde encontrar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#contact">Contato</a>
+                <a class="nav-link page-scroll" href="#contact" lang="pt">Contato</a>
+                <a class="nav-link page-scroll" href="#contact" lang="es">Contacto</a>
               </li>
             </ul>
-            <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
+            <!-- <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
               <ul>
                 <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
                 <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
               </ul>
+            </div> -->
+
+
+            <div id="lang_selector" class="language-dropdown">
+              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 44px; margin-left: 30px;">
+                <span class="flag"></span>
+              </label>
+              <ul class="lang-list" style="margin-left: 30px;">
+                <li class="lang lang-es" title="EN">
+                  <span class="flag"></span>
+                </li>
+                <li class="lang lang-pt selected" title="PT">
+                  <span class="flag"></span>
+                </li>
+                
+              </ul>
             </div>
+
+
           </div>
         </div>
 
         <div class="menu-overlay"></div>
-        <button class="menu-open" style="margin-left: 90%;">
+        <button class="menu-open form-control" style="margin-left: 90%;">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
 
         <div class="side-menu-wrapper">
           <a style="font-size: 70px;" href="#" class="menu-close">×</a>
           <ul>
-            <li><a class="page-scroll" href="#home-area" rel="nofollow">Home</a></li>
-            <li><a class="page-scroll" href="#services" rel="nofollow">Sobre</a></li>
-            <li><a class="page-scroll" href="#culturaTabaco" rel="nofollow">Cultura do Tabaco</a></li>
-            <li><a class="page-scroll" href="#a-revolucao" rel="nofollow">A Revolução</a></li>
-            <li><a class="page-scroll" href="#testimonial" rel="nofollow">Registro</a></li>
-            <li><a class="page-scroll" href="#portfolios" rel="nofollow">Galeria</a></li>
-            <li><a class="page-scroll" href="#encontrar" rel="nofollow">Onde encontrar</a></li>
-            <li><a class="page-scroll" href="#contact" rel="nofollow">Contato</a></li>
+            <li>
+              <a class="page-scroll lang" href="#home-area" rel="nofollow" lang="pt">Home</a>
+              <a class="page-scroll lang" href="#home-area" rel="nofollow" lang="es">Home</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#services" rel="nofollow" lang="pt">Sobre</a>
+              <a class="page-scroll lang" href="#services" rel="nofollow" lang="es">Sobre nosotros</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#culturaTabaco" rel="nofollow" lang="pt">Cultura do Tabaco</a>
+              <a class="page-scroll lang" href="#culturaTabaco" rel="nofollow" lang="es">Cultura del tabaco</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#a-revolucao" rel="nofollow" lang="pt">A Revolução</a>
+              <a class="page-scroll lang" href="#a-revolucao" rel="nofollow" lang="es">La Revolución</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#testimonial" rel="nofollow" lang="pt">Registro</a>
+              <a class="page-scroll lang" href="#testimonial" rel="nofollow" lang="es">Grabar</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#portfolios" rel="nofollow" lang="pt">Galeria</a>
+              <a class="page-scroll lang" href="#portfolios" rel="nofollow" lang="es">Galería</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#encontrar" rel="nofollow" lang="pt">Onde encontrar</a>
+              <a class="page-scroll lang" href="#encontrar" rel="nofollow" lang="es">Donde encontrar</a>
+            </li>
+            <li>
+              <a class="page-scroll lang" href="#contact" rel="nofollow" lang="pt">Contato</a>
+              <a class="page-scroll lang" href="#contact" rel="nofollow" lang="es">Contacto</a>
+            </li>
             <ul style="display: inline-flex; margin-top: 15px;">
-              <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" style="background: #ddd0 !important; margin: 10px; color: #f1f1f1;" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px; color: #f1f1f1;" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
+            <div id="lang_selector" class="language-dropdown" style="display: block;">
+              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 15px; margin-left: 10px;">
+                <span class="flag"></span>
+              </label>
+              <ul class="lang-list" style="margin-left: 10px;">
+                <li class="lang lang-es" title="EN">
+                  <span class="flag"></span>
+                </li>
+                <li class="lang lang-pt selected" title="PT">
+                  <span class="flag"></span>
+                </li>
+                
+              </ul>
+            </div>
           </ul>
         </div>
 
@@ -137,7 +201,7 @@
             <div class="col-sm-12">
               <div class="image-container ">
                 <div id="divToAppend-first" class="text-container" style="text-align: center;">
-                  <h1 id="h1-header-lrv-first" class="headStyle margin-85 section-subtitle p-style-header wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">#LaOnça</h1>
+                  <h1 id="h1-header-lrv-first" class="headStyle margin-85 section-subtitle p-style-header wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">#LaOnça</span> <span lang="es">#LaOnça</span></h1>
                 </div>
               </div>
             </div>
@@ -148,7 +212,7 @@
             <div class="col-sm-12">
               <div class="image-container ">
                 <div id="divToAppend-second" class="text-container" style="text-align: center;">
-                  <h1 id="h1-segundo" class="headStyle section-subtitle p-style-header wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms">O Verdadeiro Destalado!</h1>
+                  <h1 id="h1-segundo" class="headStyle section-subtitle p-style-header wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms" ><span lang="pt">O Verdadeiro Destalado!</span> <span lang="es">EL VERDADERO INDEPENDIENTE!</span></h1>
                 </div>
               </div>
             </div>
@@ -161,46 +225,104 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.5s">SOBRE A LRV BRASIL</h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.5s"><span lang="pt">SOBRE A LRV BRASIL</span> <span lang="es">ACERCA DE LRV BRASIL</span></h2>
           <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
           <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
-            Tudo começou quando três revolucionários se encantaram pela cultura do tabaco para enrolar na capital do país. 
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">
-            Com isso, viram a carência de um produto qualitativo no mercado, gerando incentivo para empreender, que sempre foi um sonho em comum.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.8s">
-            Isso os motivou a realizarem uma jornada do Centro ao Sul do país, região onde a cultura do plantio de tabaco ocorre há séculos. 
-            Essa aventura lhes proporcionou a oportunidade de <b class="bold">degustar</b> 
-            diversos tipos e cortes de fumo.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">
-            Após um longo processo de seleção, foi escolhido o tabaco mais qualitativo do tipo Golden Virgínia para lançarmos o nosso primeiro produto: 
-            o <b class="bold">La Revolución</b>, que possui como característica especial ser destalado à mão, tornando-o único.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.0s">
-            Desde o início, sempre houve o sonho de revolucionar o mercado com produtos da mais alta qualidade, proporcionando experiências singulares aos 
-            entusiastas da cultura.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.1s">
-            Durante toda essa jornada, houveram diversos desafios para encontrar o carro-chefe, pois não faltava ambição para possuir o melhor tabaco do mercado. 
-            Desde o princípio, houve o compromisso de legalizar todos os produtos, visto que muitas marcas comercializam produtos ilegais e que podem ser danosos 
-            aos consumidores. Isso mostra a preocupação da empresa com os clientes, pois sem a legalização, não há como o órgão regulatório saber quais as 
-            substâncias que o fumo possui.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.2s">
-            A onça foi designada como símbolo da LRV por ser um dos animais mais imponentes e fortes da fauna brasileira. <i>Vimos</i>, assim, grande identificação com 
-            nossos ideais, pois <i>pretendemos</i> liderar o mercado nacional.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.3s">
-            Além disso, a onça representa nossas raízes, que jamais serão esquecidas, afinal, desejamos expor a cara do nosso país nessa jornada de crescimento.
-          </p>
-          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.4s">
-            Somos ambiciosos e temos a pretensão de aumentar o nosso portfólio de produtos, gerando experiências únicas e sempre acompanhado dos nossos três pilares: 
-            Qualidade, Legalidade e Transparência.
+            <span lang="pt">Tudo começou quando três revolucionários se encantaram pela cultura do tabaco para enrolar na capital do país.</span> 
+            <span lang="es">Todo comenzó cuando tres revolucionarios quedaron encantados con la cultura del tabaco para rodar en la capital del país.</span>
+             
           </p>
 
-          <p class="section-subtitle wow fadeInDown bold" data-wow-duration="600ms" data-wow-delay="2.4s">Isso é LRV.</p> 
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">
+          <span lang="pt">Com isso, viram a carência de um produto qualitativo no mercado, gerando incentivo para empreender, que sempre foi um sonho em comum.</span> 
+          <span lang="es">Con esto, vieron la falta de un producto cualitativo en el mercado, generando un incentivo para emprender, que siempre ha sido un sueño común.</span>
+            
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.8s">
+            <span lang="pt">
+              Isso os motivou a realizarem uma jornada do Centro ao Sul do país, região onde a cultura do plantio de tabaco ocorre há séculos. 
+              Essa aventura lhes proporcionou a oportunidade de <b class="bold">degustar</b> 
+              diversos tipos e cortes de fumo.
+            </span> 
+            <span lang="es">
+              Esto los motivó a emprender un viaje desde el centro hacia el sur del país, una región donde la cultura de la siembra de tabaco se lleva a cabo durante siglos.
+              Esta aventura les brindó la oportunidad de <b class="bold">degustar</b> diferentes tipos y cortes de tabaco.
+            </span>
+            
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">
+            <span lang="pt">
+              Após um longo processo de seleção, foi escolhido o tabaco mais qualitativo do tipo Golden Virgínia para lançarmos o nosso primeiro produto: 
+              o <b class="bold">La Revolución</b>, que possui como característica especial ser destalado à mão, tornando-o único.
+            </span>
+            <span lang="es">
+              Luego de un largo proceso de selección, se eligió el tabaco tipo Golden Virgínia más cualitativo para lanzar nuestro 
+              primer producto: <b class="bold">La Revolución</b>, que tiene la característica especial de ser cortado a mano, lo que lo hace único.
+            </span>
+            
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.0s">
+            <span lang="pt">
+              Desde o início, sempre houve o sonho de revolucionar o mercado com produtos da mais alta qualidade, proporcionando experiências singulares aos 
+              entusiastas da cultura.
+            </span> 
+            <span lang="es">
+              Desde el principio, siempre ha existido el sueño de revolucionar el mercado con productos de la más alta calidad, 
+              brindando experiencias únicas a los amantes de la cultura.
+            </span> 
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.1s">
+            <span lang="pt">
+              Durante toda essa jornada, houveram diversos desafios para encontrar o carro-chefe, pois não faltava ambição para possuir o melhor tabaco do mercado. 
+              Desde o princípio, houve o compromisso de legalizar todos os produtos, visto que muitas marcas comercializam produtos ilegais e que podem ser danosos 
+              aos consumidores. Isso mostra a preocupação da empresa com os clientes, pois sem a legalização, não há como o órgão regulatório saber quais as 
+              substâncias que o fumo possui.
+            </span> 
+            <span lang="es">
+              A lo largo de este viaje, hubo varios desafíos para encontrar el buque insignia, ya que no faltó la ambición de poseer 
+              el mejor tabaco del mercado. Desde el principio, hubo un compromiso de legalizar todos los productos, ya que muchas 
+              marcas comercializan productos ilegales que pueden ser perjudiciales para los consumidores. Esto muestra la preocupación 
+              de la empresa con los clientes, porque sin legalización, no hay forma de que el organismo regulador sepa qué sustancias 
+              tiene el tabaco.
+            </span>
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.2s">
+          <span lang="pt">
+            A onça foi designada como símbolo da LRV por ser um dos animais mais imponentes e fortes da fauna brasileira. <i>Vimos</i>, assim, grande identificação com 
+            nossos ideais, pois <i>pretendemos</i> liderar o mercado nacional.
+          </span> 
+          <span lang="es">
+            El jaguar fue designado como símbolo de la LRV porque es uno de los animales más imponentes y fuertes de la fauna brasileña. 
+            <i>Así</i>, vimos una gran identificación con nuestros ideales, ya que lideramos el mercado nacional.
+          </span>
+            
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.3s">
+            <span lang="pt">
+              Além disso, a onça representa nossas raízes, que jamais serão esquecidas, afinal, desejamos expor a cara do nosso país 
+              nessa jornada de crescimento.
+            </span> 
+            <span lang="es">
+              Además, el jaguar representa nuestras raíces, que nunca se olvidarán, después de todo, queremos exponer el rostro de 
+              nuestro país en este camino de crecimiento.
+            </span>
+            
+          </p>
+          <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="1.4s">
+            <span lang="pt">
+              Somos ambiciosos e temos a pretensão de aumentar o nosso portfólio de produtos, gerando experiências únicas e sempre acompanhado dos nossos três pilares: 
+              Qualidade, Legalidade e Transparência.
+            </span> 
+            <span lang="es">         
+              Somos ambiciosos y pretendemos incrementar nuestro portafolio de productos, generando experiencias únicas y siempre 
+              acompañadas de nuestros tres pilares: Calidad, Legalidad y Transparencia.
+            </span>
+            
+          </p>
+
+          <p class="section-subtitle wow fadeInDown bold" data-wow-duration="600ms" data-wow-delay="2.4s">
+            <span lang="pt">Isso é LRV.</span> <span lang="es">Eso es LRV.</span>
+          </p> 
         </div>
       </div>
     </section>
@@ -213,8 +335,11 @@
               <div class="icon">
                 <i class="fa fa-thumbs-o-up"></i>
               </div>
-              <h4>MISSÃO</h4>
-              <p>Proporcionar experiências inigualáveis, lutando pela igualdade e inclusão social.</p>
+              <h4><span lang="pt">MISSÃO</span> <span lang="es">MISIÓN</span></h4>
+              <p>
+                <span lang="pt">Proporcionar experiências inigualáveis, lutando pela igualdade e inclusão social.</span> 
+                <span lang="es">Brindar experiencias inigualables, luchando por la igualdad y la inclusión social.</span>
+              </p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -222,8 +347,11 @@
               <div class="icon">
                 <i class="fa fa-bullseye"></i>
               </div>
-              <h4>VISÃO</h4>
-              <p>Sermos reconhecidos mundialmente pela qualidade e confiabilidade dos nossos produtos.</p>
+              <h4><span lang="pt">VISÃO</span> <span lang="es">VISTA</span></h4>
+              <p>
+                <span lang="pt">Sermos reconhecidos mundialmente pela qualidade e confiabilidade dos nossos produtos.</span> 
+                <span lang="es">Ser reconocidos mundialmente por la calidad y confiabilidad de nuestros productos.</span>
+              </p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -231,8 +359,11 @@
               <div class="icon">
                 <i class="fa fa-certificate"></i>
               </div>
-              <h4>VALORES</h4>
-              <p>Confiança, prazer em servir, respeito e resiliência.</p>
+              <h4><span lang="pt"></span> <span lang="es">VALORES</span></h4>
+              <p>
+                <span lang="pt">Confiança, prazer em servir, respeito e resiliência.</span> 
+                <span lang="es">Confianza, placer en servir, respeto y resiliencia.</span>
+              </p>
             </div>
           </div>
         </div>
@@ -243,23 +374,33 @@
       <div class=" ">
         <div class="container ">
           <div class="section-header section" style="margin-bottom: 0px !important;">          
-            <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.4s">Cultura do Tabaco</h1>
+            <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.4s"><span lang="pt">Cultura do Tabaco</span> <span lang="es">Cultura del tabaco</span></h1>
             <span class="lines wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.4s"></span>
             <div class="row">
               <div class="col-lg-12 col-sm-12 col-xs-12 box-item">
                 <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
-                  O tabaco era usado pelos indígenas em rituais religiosos com o objetivo de purificar, contemplar, proteger e fortalecer os 
-                  ímpetos guerreiros. Os termos tabacum e tabaco vêm do nome de um tipo de junco vazado que era usado pelos indígenas para inalar o fumo.
+                  <span lang="pt">
+                    O tabaco era usado pelos indígenas em rituais religiosos com o objetivo de purificar, contemplar, proteger e fortalecer os 
+                    ímpetos guerreiros. Os termos tabacum e tabaco vêm do nome de um tipo de junco vazado que era usado pelos indígenas para inalar o fumo.
+                  </span> 
+                  <span lang="es">
+                    El tabaco era utilizado por los indígenas en rituales religiosos con el fin de purificar, contemplar, proteger y 
+                    fortalecer los impulsos guerreros. Los términos tabacum y tabaco provienen del nombre de un tipo de caña hueca que usaban los indígenas para inhalar humo.
+                  </span>                  
                 </p>
                 <p class="section-subtitle wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.6s">
-                  Levado para a Europa nas navegações de Cristóvão Colombo, a rainha da França, Catarina de Médicis, passou a usar o fumo em pó para curar enxaquecas. 
-                  O uso do tabaco para esta finalidade foi recomendado por Jean Nicot (vem daí o nome do seu princípio ativo, a nicotina). 
+                  <span lang="pt">
+                    Levado para a Europa nas navegações de Cristóvão Colombo, a rainha da França, Catarina de Médicis, passou a usar o fumo em pó para curar enxaquecas. 
+                    O uso do tabaco para esta finalidade foi recomendado por Jean Nicot (vem daí o nome do seu princípio ativo, a nicotina). 
+                  </span> 
+                  <span lang="es">
+                    Llevada a Europa en los viajes de Cristóbal Colón, la reina de Francia, Catalina de Médicis, comenzó a usar 
+                    tabaco en polvo para curar las migrañas. Jean Nicot recomendó el uso de tabaco para este fin (de ahí el nombre de 
+                    su ingrediente activo, nicotina).
+                  </span>
                 </p>
-                  <a class="lrvLinkButton wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.8" href="historia-do-tabaco.php">Leia mais</a>
+                  <a class="lrvLinkButton wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.8" href="historia-do-tabaco.php"><span lang="pt">Leia mais</span> <span lang="es">Lea mas</span></a>
               </div>
-              <!-- <div class="col-md-6 col-xs-12 col-xs-12 ">
-                <img class="img-fluid wow fadeInRight" height="auto" width="60%" src="img/tabaco-duplo-reduzido.png" alt="LRV BRASIL TABACOS" data-wow-duration="2000ms" data-wow-delay="0.6s">
-              </div> -->
             </div>
           </div>
         </div>
@@ -269,11 +410,18 @@
     <section id="a-revolucao" class="section">
       <div class="container">
         <div class="section-header col-md-12">          
-          <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s">A REVOLUÇÃO</h1>
+          <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">A REVOLUÇÃO</span> <span lang="es">LA REVOLUCIÓN</span></h1>
           <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
             <p class="section-subtitle wow fadeInDown font-700" data-wow-duration="600ms" data-wow-delay="0.3s">
-              “Não podemos aguardar que os tempos se modifiquem e nós nos modifiquemos junto, por uma revolução que chegue e nos leve em sua marcha. 
-              Nós mesmos somos o futuro. Nós somos a revolução.”
+              <span lang="pt">
+                “Não podemos aguardar que os tempos se modifiquem e nós nos modifiquemos junto, por uma revolução que chegue e nos leve em sua marcha. 
+                Nós mesmos somos o futuro. Nós somos a revolução.”
+              </span> 
+              <span lang="es">               
+                “No podemos esperar a que los tiempos cambien y cambiemos juntos, a una revolución que llegue y nos lleve en su marcha. 
+                Nosotros mismos somos el futuro. Somos la revolución ”.
+              </span>
+              
             </p>
             <p class="section-subtitle wow fadeInUp font-700" data-wow-duration="600ms" data-wow-delay="0.3s">Beatrice Bruteau</p>
         </div>
@@ -304,12 +452,42 @@
 
           <div class="col-md-6">
             <h1 class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">Tabaco <img src="<?php echo url_site;?>img/LA REVOLUCION PNG.png" alt="LRV BRASIL TABACO" width="60%" height="auto"></h1>
-            <p class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">O Tabaco La Revolución é um fumo desfiado <b>Premium</b> do tipo Golden Virginia.</p>
-            <p class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">As folhas passam pelo processo de cura chamado Flue-Cured, que consiste no aquecimento em um ambiente controlado, para que ocorra a liberação 
-              dos açúcares naturais e adquiram a coloração clara, além de seu aroma característico, marcas únicas do produto.</p>
-            <p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.9s">Por fim, todas as folhas são minuciosamente selecionadas e <b>Destaladas à Mão</b>, o que faz com que os talos sejam eliminados, 
-              tornando o tabaco extremamente limpo.</p>
-            <p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.7s">Sua característica principal é proporcionar uma experiência <b>suave</b>, <b>autêntica</b> e <b>saborosa</b>.</p>
+            <p class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.7s">
+              <span lang="pt">O Tabaco La Revolución é um fumo desfiado <b>Premium</b> do tipo Golden Virginia.</span> 
+              <span lang="es">La Revolución Tobacco es un humo rallado Premium del tipo Golden Virginia.</span>
+            </p>
+            <p class="wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.9s">
+              <span lang="pt">
+                As folhas passam pelo processo de cura chamado Flue-Cured, que consiste no aquecimento em um ambiente controlado, para que ocorra a liberação 
+                dos açúcares naturais e adquiram a coloração clara, além de seu aroma característico, marcas únicas do produto.
+              </span> 
+              <span lang="es">      
+                Las hojas pasan por el proceso de curado denominado Flue-Cured, el cual consiste en calentar en un ambiente controlado, 
+                para que se produzca la liberación de azúcares naturales y adquieran un color claro, además de su aroma característico, 
+                marcas únicas del producto.
+              </span>
+              
+            </p>
+            <p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.9s">
+              <span lang="pt">
+                Por fim, todas as folhas são minuciosamente selecionadas e <b>Destaladas à Mão</b>, o que faz com que os talos sejam eliminados, 
+                tornando o tabaco extremamente limpo.
+              </span> 
+              <span lang="es">           
+                Finalmente, todas las hojas se seleccionan <b>minuciosamente a mano</b>, lo que hace que se eliminen los tallos, 
+                dejando el tabaco extremadamente limpio.
+              </span>
+            
+            </p>
+            <p class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.7s">
+              <span lang="pt">
+                Sua característica principal é proporcionar uma experiência <b>suave</b>, <b>autêntica</b> e <b>saborosa</b>.
+              </span> 
+              <span lang="es">
+                Su principal característica es brindar una experiencia <b>suave</b>, <b>auténtica</b> y <b>sabrosa</b>.
+              </span>
+              
+            </p>
             <br>
           </div>
         </div>
@@ -321,18 +499,25 @@
         <div class="container" style="padding-top: 80px; padding-bottom: 80px;">
           <div class="row">
             <div class="col-md-8">
-              <h1 class="section-title wow fadeIn word-wrap" data-wow-duration="600ms" data-wow-delay="0.3s">REGISTRO</h1>
+              <h1 class="section-title wow fadeIn word-wrap" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">REGISTRO</span> <span lang="es">GRABAR</span></h1>
               <div class="section-header" style="text-align:left;">
                 <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
               </div>
               <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.3s">
-                A Agência Nacional de Vigilância Sanitária (ANVISA) é o órgão responsável pela regulamentação de produtos derivados do tabaco.
+                <span lang="pt">
+                  A Agência Nacional de Vigilância Sanitária (ANVISA) é o órgão responsável pela regulamentação de produtos derivados do tabaco.
+                </span> 
+                <span lang="es">
+                  La Agencia Nacional de Vigilancia Sanitaria (ANVISA) es el organismo responsable de la regulación de los productos del tabaco.
+                </span>
               </p>
               <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.4s">
-                Após o crescimento da cultura do tabaco para enrolar, fomos os precursores no êxito da conquista da legalidade no Centro do país.
+                <span lang="pt">Após o crescimento da cultura do tabaco para enrolar, fomos os precursores no êxito da conquista da legalidade no Centro do país.</span> 
+                <span lang="es">Luego del crecimiento de la cultura del tabaco para rodar, fuimos los precursores en el éxito de la conquista de la legalidad en el centro del país.</span>
               </p>
               <p class="section-subtitle wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">
-                Combata a ilegalidade e valorize a <b style="text-transform:uppercase">transparência</b>.
+                <span lang="pt">Combata a ilegalidade e valorize a <b style="text-transform:uppercase">transparência</b>.</span> 
+                <span lang="es">Lucha contra la ilegalidad y valora la transparencia.</span>
               </p>
             </div>
           </div>
@@ -344,25 +529,13 @@
     <section id="portfolios" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s">Galeria</h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">Galeria</span> <span lang="es">Galería</span></h2>
           <span class="lines wow zoomIn" data-wow-duration="600ms" data-wow-delay="0.3s"></span>
         </div>
         <div class="row justify-content-center wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.5s">
           <div class="col-md-12 col-sm-12">
             <div id="instafeed"></div>
-
           </div>
-
-          <!-- <div class="container">          
-            <div class="gallery-wrap">
-              <div class="item item-1"></div>
-              <div class="item item-2"></div>
-              <div class="item item-3"></div>
-              <div class="item item-4"></div>
-              <div class="item item-5"></div>
-              <div class="item item-6"></div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -371,28 +544,28 @@
       <div class="masked">
         <div class="container" style="padding: 80px 0 80px 0;">
           <div class="section-header">          
-            <h1 class="section-title wow fadeIn color-white" data-wow-duration="600ms" data-wow-delay="0.5s">ONDE ENCONTRAR</h1>
+            <h1 class="section-title wow fadeIn color-white" data-wow-duration="600ms" data-wow-delay="0.5s"><span lang="pt">ONDE ENCONTRAR</span> <span lang="es">DONDE ENCONTRAR</span></h1>
             <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
           </div>
           <div class="row justify-content-center">
             <div class="col-md-2">
               <div class="form-group"> 
                 <select class="form-control" name="ufMapa" id="ufMapa" style="height: auto !important;">
-                    <option value="Estado" selected data-default>Estado</option>
+                    <option id="estadoOption" value="Estado" selected data-default>Estado</option>
                  </select>
               </div>
             </div>
             <div class="col-md-3">
               <div class="form-group">
                 <select name="cidadeMapa" class="form-control" id="cidadeMapa" style="height: auto !important;" required>
-                    <option value="Cidade" selected>Cidade</option>
+                    <option id="cidadeOption" value="Cidade" selected>Cidade</option>
                 </select>
               </div>
             </div>
             <div class="col-md-3">
               <div class="form-group">
                 <select name="tipoPontoMapa" class="form-control" id="tipoPontoMapa" style="height: auto !important;" required>
-                    <option value="tipoPonto" selected>Tipo de ponto de venda</option>
+                    <option id="tipoOption" value="tipoPonto" selected>Tipo de ponto de venda</option>
                 </select>
               </div>
             </div>
@@ -412,7 +585,12 @@
           <br>
           <div class="row justify-content-center" style="text-align: center;">
             <div class="col-md-12 justify-content-center">
+            <span lang="pt">
               <button type="button" class="btn btn-warning white-space-normal wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.8" onclick="redirecionarCadPonto()">Clique aqui para cadastrar seu ponto de venda</button>
+            </span>
+            <span lang="es">
+              <button type="button" class="btn btn-warning white-space-normal wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0.8" onclick="redirecionarCadPonto()">Registra tu punto de venta</button>
+            </span>
             </div>
           </div>
         </div>
@@ -424,7 +602,7 @@
       <div class="contact-form">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s">CONTATO</h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">CONTATO</span> <span lang="es">CONTACTO</span></h2>
             <span class="lines wow zoomIn" data-wow-duration="600ms" data-wow-delay="0.3s"></span>
           </div>
 
@@ -433,8 +611,14 @@
               <div class="contact-us">
                 <!-- <h3 class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Entre em contato</h3> -->
                 <div class="contact-address">
-                  <p class="wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.5s">Estamos à disposição para esclarecer dúvidas e sempre abertos à sugestões!</p>
-                  <p class="phone wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.6s">Se prefirir, use o formulário ao lado para enviar a mensagem.</p>
+                  <p class="wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.5s">
+                    <span lang="pt">Estamos à disposição para esclarecer dúvidas e sempre abertos à sugestões!</span> 
+                    <span lang="es">¡Estamos disponibles para responder preguntas y siempre abiertos a sugerencias!</span>
+                  </p>
+                  <p class="phone wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="0.6s">
+                    <span lang="pt">Se prefirir, use o formulário ao lado para enviar a mensagem.</span> 
+                    <span lang="es">Si lo prefiere, utilice el formulario al costado para enviar el mensaje.</span>
+                  </p>
                   <a class="wow fadeInLeft" title="Enviar uma mensagem por email" href="mailto:contato@larevolucionbr.com" data-wow-duration="600ms" data-wow-delay="0.7s">
                   <i class="fa fa-envelope "></i><span>  contato@lrvbrasil.com</span></a>
                 </div>
@@ -483,28 +667,28 @@
           <div class="col-lg-8 col-sm-8 col-xs-12">
             <ul class="footer-links">
               <li>
-                <a class="page-scroll" href="#home-area">Home</a>
+                <a class="page-scroll" href="#home-area"><span lang="pt">Home</span> <span lang="es">Home</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#services">Sobre</a>
+                <a class="page-scroll" href="#services"><span lang="pt">Sobre</span> <span lang="es">Sobre nosotros</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#culturaTabaco">Cultura do Tabaco</a>
+                <a class="page-scroll" href="#culturaTabaco"><span lang="pt">Cultura do Tabaco</span> <span lang="es">Cultura del tabaco</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#a-revolucao">A Revolução</a>
+                <a class="page-scroll" href="#a-revolucao"><span lang="pt">A Revolução</span> <span lang="es">La revolución</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#testimonial">Registro</a>
+                <a class="page-scroll" href="#testimonial"><span lang="pt">Registro</span> <span lang="es">Grabar</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#portfolios">Galeria</a>
+                <a class="page-scroll" href="#portfolios"><span lang="pt">Galeria</span> <span lang="es">Galería</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#encontrar">Onde encontrar</a>
+                <a class="page-scroll" href="#encontrar"><span lang="pt">Onde encontrar</span> <span lang="es">Donde encontrar</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#contact">Contato</a>
+                <a class="page-scroll" href="#contact"><span lang="pt">Contato</span> <span lang="es">Contacto</span></a>
               </li>
             </ul>
           </div>
@@ -515,7 +699,10 @@
         <div class="row">
           <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
             <div class="copyright">
-                <p><?php echo Copyright;?></p>  
+                <p>
+                  <span lang="pt">© Copyright LRV Brasil 2020 Todos os direitos reservados</span> 
+                  <span lang="es">© Copyright LRV Brasil 2020 Todos los derechos reservados</span>
+                </p>  
             </div>
           </div>
         </div>
@@ -536,12 +723,12 @@
     <div id="laRevolucionConfirmarIdade" class="overlayConfirm">
       <div class="imagemLRV">
         <div class="overlayConfirm-content">
-          <a class="" style="font-weight: bold;">VOCÊ TEM MAIS DE 18 ANOS?</a>
+          <a class="" style="font-weight: bold;"><span lang="pt">VOCÊ TEM MAIS DE 18 ANOS?</span> <span lang="es">¿ES MAYOR DE 18 AÑOS?</span></a>
           <div class="row commands lrv-buttons-age">
             <button class="text-center btn btn-success" onclick="closeNav()"
-              style="margin-right: 30px; cursor: pointer; font-size: 25px;">Sim</button>
+              style="margin-right: 30px; cursor: pointer; font-size: 25px;"><span lang="pt">Sim</span> <span lang="es">Si</span></button>
             <button class="text-center btn btn-danger" onclick="historyBack()"
-              style="margin-left: 30px; cursor: pointer; font-size: 25px;">Não</button>
+              style="margin-left: 30px; cursor: pointer; font-size: 25px;"><span lang="pt">Não</span> <span lang="es">No</span></button>
           </div>
         </div>
       </div>

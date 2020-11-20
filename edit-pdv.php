@@ -136,7 +136,7 @@
         </div>
 
         <div class="menu-overlay"></div>
-        <button class="menu-open" style="margin-left: 90%;">
+        <button class="menu-open form-control" style="margin-left: 90%;">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
 
