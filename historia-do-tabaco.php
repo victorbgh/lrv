@@ -80,8 +80,8 @@
                 <a class="nav-link page-scroll active" href="<?php echo url_site;?>#culturaTabaco" style="background: #ffe600; color: #fff;" lang="es">Cultura del tabaco</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="pt">A Revolução</a>
-                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="es">La Revolución</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="pt">Produtos</a>
+                <a class="nav-link page-scroll" href="<?php echo url_site;?>#a-revolucao" lang="es">Nuestros productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="<?php echo url_site;?>#testimonial" lang="pt">Registro</a>
@@ -99,15 +99,15 @@
                 <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact" lang="pt">Contato</a>
                 <a class="nav-link page-scroll" href="<?php echo url_site;?>#contact" lang="es">Contacto</a>
               </li>
+              <div class="social-icons " style="margin-top: auto; margin-bottom: auto;">
+                <ul>
+                  <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
+                  <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
             </ul>
-            <!-- <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
-              <ul>
-                <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
-                <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-            </div> -->
             <div id="lang_selector" class="language-dropdown">
-              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 44px; margin-left: 30px;">
+              <label for="toggle" class="lang-flag lang-pt" title="Selecione a linguagem" style="margin-top: 44px; margin-left: 30px;">
                 <span class="flag"></span>
               </label>
               <ul class="lang-list" style="margin-left: 30px;">
@@ -145,8 +145,8 @@
               <a class="page-scroll active ativo" href="<?php echo url_site;?>#culturaTabaco" rel="nofollow" lang="es">Cultura del tabaco</a>
             </li>
             <li>
-              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="pt">A Revolução</a>
-              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="es">La Revolución</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="pt">Produtos</a>
+              <a class="page-scroll lang" href="<?php echo url_site;?>#a-revolucao" rel="nofollow" lang="es">Nuestros productos</a>
             </li>
             <li>
               <a class="page-scroll lang" href="<?php echo url_site;?>#testimonial" rel="nofollow" lang="pt">Registro</a>
@@ -165,11 +165,11 @@
               <a class="page-scroll lang" href="<?php echo url_site;?>#contact" rel="nofollow" lang="es">Contacto</a>
             </li>
             <ul style="display: inline-flex; margin-top: 15px;">
-              <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px;" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" style="background: #ddd0 !important; margin: 10px; color: #f1f1f1;" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px; color: #f1f1f1;" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
             <div id="lang_selector" class="language-dropdown" style="display: block;">
-              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 15px; margin-left: 10px;">
+              <label for="toggle" class="lang-flag lang-pt" title="Selecione a linguagem" style="margin-top: 15px; margin-left: 10px;">
                 <span class="flag"></span>
               </label>
               <ul class="lang-list" style="margin-left: 10px;">
@@ -197,6 +197,13 @@
       </div>  
     </div>
   </header>
+  <div class="ex-basic-1">
+      <div class="container">
+          <div class="breadcrumbs" style="text-align: left !important;">
+              <a class="no-underline" href="<?php echo url_site;?>">LRV Brasil</a><i class="fa fa-angle-double-right"></i><span lang="pt">História do tabaco</span><span lang="es">Historia del tabaco</span>
+          </div>
+      </div>
+  </div>
 
   <section class="section">
     <div class="container">
@@ -272,7 +279,7 @@
           </div>
           <div class="col-md-6 wow fadeInDown" data-wow-duration="600ms" data-wow-delay="0.6s">
             <br>
-            <img class="img-fluid center" src="img/tabaco-da-onca-min.jpg" width="100%" height="auto" alt="Tabaco bolado LRV Brasil"> 
+            <img class="img-fluid center" src="img/roll your own.jpg" width="100%" height="auto" alt="Tabaco bolado LRV Brasil"> 
           </div>
         </div>
       </div>
@@ -296,7 +303,7 @@
                 <a class="page-scroll" href="<?php echo url_site;?>#culturaTabaco"><span lang="pt">Cultura do Tabaco</span> <span lang="es">Cultura del tabaco</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="<?php echo url_site;?>#a-revolucao"><span lang="pt">A Revolução</span> <span lang="es">La revolución</span></a>
+                <a class="page-scroll" href="<?php echo url_site;?>#a-revolucao"><span lang="pt">Produtos</span> <span lang="es">Nuestros productos</span></a>
               </li>
               <li>
                 <a class="page-scroll" href="<?php echo url_site;?>#testimonial"><span lang="pt">Registro</span> <span lang="es">Grabar</span></a>

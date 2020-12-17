@@ -172,21 +172,6 @@
     </div>
     </div>
         </div>
-
-
-
-
-    <!-- <footer style="position: absolute; bottom: 0; width: 100%;">          
-      <div class="container">
-          <div class="row">
-          <div class="col-lg-12 col-sm-12 col-xs-12">
-              <div class="" style="text-align: center; color: #fff;">
-                <p>© Copyright LRV Brasil 2020, Todos os direitos reservados</p>
-              </div>
-          </div>  
-          </div>
-      </div>
-    </footer> -->
   
       <a href="#" class="back-to-top">
         <i class="lnr lnr-arrow-up"></i>

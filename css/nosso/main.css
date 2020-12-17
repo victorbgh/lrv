@@ -393,10 +393,10 @@ button:focus {
 }
 
 #home-area {
-  background: url(../../img/lrv-folhas-min.jpg) fixed no-repeat;
-  background-position: 0px -110px;
+  /* background: url(../../img/lrv-folhas-min.jpg) fixed no-repeat; */
+  /* background-position: 0px -110px;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: scroll; */
   /* background-attachment: fixed; */
   color: #fff;
   overflow: hidden;
@@ -408,6 +408,27 @@ button:focus {
 
 #historia-do-tabaco {
   background: url(../../img/tabaco-folha-seca.jpg) fixed no-repeat;
+  /* background: linear-gradient(to bottom right, #6699b2, #bcd2dd); */
+  background-size: cover;
+  background-attachment: scroll;
+  /* color: #fff; */
+  overflow: hidden;
+  position: relative;
+}
+
+.background-piteira{
+  /* background: linear-gradient(to bottom right, #77a4bb, #bcd2dd) !important; */
+  background: linear-gradient(to bottom right, #77a4bb, #000) !important;
+  background-size: cover;
+  background-attachment: scroll;
+  /* color: #fff; */
+  overflow: hidden;
+  position: relative;
+}
+
+.background-la-revolucion{
+  /* background: linear-gradient(to bottom right, #77a4bb, #bcd2dd) !important; */
+  background: linear-gradient(to bottom right, #eca730, #000) !important;
   background-size: cover;
   background-attachment: scroll;
   /* color: #fff; */
@@ -444,7 +465,7 @@ button:focus {
   opacity: 0.9;
 }
 
-#home-area .overlay {
+/* #home-area .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -452,7 +473,7 @@ button:focus {
   left: 0px;
   background: #61D2B4;
   opacity: 0.9;
-}
+} */
 
 #historia-do-tabaco .contents {
   color: #fff;
@@ -466,16 +487,16 @@ button:focus {
   padding-top: 20vh;
 }
 
-#home-area .contents {
+/* #home-area .contents {
   padding: 200px 0 130px;
-}
+} */
 
-#home-area .contents h1 {
+/* #home-area .contents h1 {
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
-}
+} */
 
 #historia-do-tabaco .contents h1 {
   color: #fff;
@@ -491,13 +512,13 @@ button:focus {
   margin-bottom: 25px;
 }
 
-#home-area .contents p {
+/* #home-area .contents p {
   font-size: 14px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
-}
+} */
 
 #historia-do-tabaco .contents p {
   font-size: 14px;
@@ -516,10 +537,10 @@ button:focus {
 }
 
 
-#home-area .contents .btn {
+/* #home-area .contents .btn {
   margin: 25px 25px 0px 0px;
   text-transform: uppercase;
-}
+} */
 
 #historia-do-tabaco .contents .btn {
   margin: 25px 25px 0px 0px;
@@ -543,14 +564,14 @@ button:focus {
   margin-top: 40px;
 }
 
-#home-area .banner_bottom_btn i {
+/* #home-area .banner_bottom_btn i {
   color: #fff;
   font-size: 48px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
-}
+} */
 
 #historia-do-tabaco .banner_bottom_btn i {
   color: #fff;
@@ -570,9 +591,9 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#home-area .banner_bottom_btn i:hover {
+/* #home-area .banner_bottom_btn i:hover {
   color: #61D2B4;
-}
+} */
 
 #historia-do-tabaco .banner_bottom_btn i:hover {
   color: #61D2B4;
@@ -628,7 +649,7 @@ button:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   color: #000;
-  padding: 0 15px;
+  padding: 0 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 40px;
@@ -1699,17 +1720,17 @@ footer {
     }
     
     
-@media screen and (max-width: 425px) and (min-width: 0px) {
+/* @media screen and (max-width: 425px) and (min-width: 0px) {
   #home-area{
     background-position: -315px 20px ;
   }     
-}
+} */
 
-@media screen and (min-width: 426px) and (max-width: 649px) {
+/* @media screen and (min-width: 426px) and (max-width: 649px) {
   #home-area{
     background-position: -170px 40px ;
   }     
-}
+} */
 
 /* @media screen and (min-width: 650px){
   #home-area{
@@ -2476,4 +2497,315 @@ text{
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
+}
+
+
+
+
+
+.static {
+  position: static;
+}
+
+.cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.owl-carousel .owl-slide {
+  position: relative;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+.owl-carousel .owl-slide-animated {
+  transform: translateX(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.05s;
+}
+
+.owl-carousel .owl-slide-animated.is-transitioned {
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.owl-carousel .owl-slide-title.is-transitioned {
+  transition-delay: 0.2s;
+}
+
+.owl-carousel .owl-slide-subtitle.is-transitioned {
+  transition-delay: 0.35s;
+}
+
+.owl-carousel .owl-slide-cta.is-transitioned {
+  transition-delay: 0.5s;
+}
+
+/* .owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
+  position: absolute;
+} */
+
+/* .owl-carousel .owl-dots .owl-dot,
+.owl-carousel .owl-nav [class*="owl-"]:focus {
+  outline: none;
+} */
+
+/* .owl-carousel .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid var(--main-black-color);
+  transition: all 0.2s ease;
+} */
+
+/* .owl-carousel .owl-dots .owl-dot:hover span,
+.owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--main-black-color);
+} */
+
+.owl-carousel .owl-nav {
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.owl-carousel .owl-nav svg {
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.owl-carousel .owl-nav button:hover svg {
+  opacity: 1;
+}
+
+.owl-carousel .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+}
+
+
+@media screen and (max-width: 575px) {
+  .owl-carousel .owl-nav {
+    top: 5%;
+  }
+  
+  .owl-carousel .owl-nav svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.img-carousel-1{
+  
+  background: url("../../img/laRevolucionAnatel-min.JPG") fixed no-repeat;
+  background-position: top;
+  background-size: cover;
+  /* background-attachment: scroll;  */
+  background-attachment: local;
+}
+
+.img-carousel-2{
+  background: url("../../img/onça\ 2.png") fixed no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: local; 
+}
+
+.img-carousel-3{
+  background: url("../../img/piteiras\ horizontal.png") fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local; 
+}
+
+.overlay-carousel{
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.34) 50%, rgba(0,0,0,0.34) 50%);
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.justify-custom{
+  justify-content: initial;
+}
+
+:root{
+  --background-dark: #000;
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,255,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+}
+
+.hero-section{
+  align-items: flex-start;
+  /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  justify-content: center;
+  /* padding: var(--spacing-xxl) var(--spacing-l); */
+}
+
+.card-grid{
+  display: grid;
+  /* grid-template-columns: repeat(1, 1fr); */
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+}
+
+@media(min-width: 540px){
+  .card-grid{
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 300px 300px;
+  }
+  .justify-custom{
+    justify-content: center;
+  }
+}
+
+@media(min-width: 960px){
+  .card-grid{
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 300px 300px;
+  }
+  .justify-custom{
+    justify-content: center;
+  }
+}
+
+.card{
+  list-style: none;
+  border-radius: var(--spacing-l);
+  position: relative;
+  height: 310px;
+}
+
+/* .card:before{
+  content: '';
+  display: block;
+  padding-bottom: 150%;
+  width: 100%;
+} */
+
+.card__background{
+  background-size: cover;
+  background-position: inherit;
+  border-radius: var(--spacing-l);
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  trsnsform: scale(1) translateZ(0);
+  transition: 
+    filter 200ms linear,
+    transform 200ms linear;
+}
+
+.card:hover .card__background{
+  transform: scale(1.05) translateZ(0);
+  /* filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px); */
+}
+
+.card-grid > .card:not(:hover) .card__background{
+  /* filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px); */
+}
+
+.card__content{
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  top: 0;
+}
+
+.card__category{
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+}
+
+.card__heading{
+  color: var(--text-lighter);
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  line-height: 1.4;
+  word-spacing: 100vw;
+}
+
+.bottom-image-col {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  bottom: 22px;
+}
+
+.border-radius-10{
+  border-radius: 10px;
+}
+
+.ex-basic-1 {
+	padding-top: 2rem;
+	padding-bottom: 0.875rem;
+  background-color: #f8f8f8;
+}
+
+.ex-basic-1 .breadcrumbs {
+  margin-bottom: 1.125rem;
+}
+
+.ex-basic-1 .breadcrumbs .fa {
+	margin-right: 0.5rem;
+	margin-left: 0.625rem;
+}
+
+.no-underline{
+  color: #000;
+}
+
+.background-section{
+  background: #fafafa;
+  border-top: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.li-custom li{
+  color: #242625;
+  list-style: disc !important;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.margin-center{
+  margin: 0 auto;
+  display: block;
+}
+
+.li-custom{
+  padding: 20px;
+}
+
+.spanColor span{
+  color: #242625;
 }

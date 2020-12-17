@@ -1,28 +1,41 @@
 <?php
 
-if(isset($_POST['email']) && !empty($_POST['email'])){
+require_once('./PHPMailer/PHPMailer.php');
+require_once('./PHPMailer/SMTP.php');
+require_once('./PHPMailer/Exception.php');
+  
+use PHPMailer\PHPMailer\PHPMailer;
 
-    $nome = addslashes($_POST['name']);
-    $email = addslashes($_POST['email']);
-    $mensagem = addslashes($_POST['message']);
-
-    $to = "contato@lrvbrasil.com";
-    $subject = "Mensagem do Formulario de contato";
-    $body = "Nome: ". $nome. "\r\n".
-            "E-mail: ". $email. "\r\n".
-            "Mensagem: ". $mensagem;
-    
-    $header = "From:site@larevolucion.com". "\r\n"
-                ."Reply-To:".$email. "\r\n"
-                ."x=Mailer:PHP/".phpversion();
-    
-    if(mail($to, $subject, $body, $header)){
-        exit('success');
+  try{
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $mensagem = $_POST["mensagem"];
+    $mailer = new PHPMailer(true);
+    $mailer->setLanguage('br');                             // Habilita as saídas de erro em Português
+    $mailer->CharSet='UTF-8';
+    $mailer->IsSMTP();
+    //$mailer->SMTPDebug = 1;
+    $mailer->Port = 587; //Indica a porta de conexão 
+    $mailer->Host = 'smtp.gmail.com';//Endereço do Host do SMTP 
+    $mailer->SMTPAuth = true; //define se haverá ou não autenticação 
+    $mailer->Username ="testevictorhugo2020@gmail.com"; //Login de autenticação do SMTP
+    $mailer->Password = "abcv3625"; //Senha de autenticação do SMTP
+    $mailer->isHTML(true);
+    $mailer->FromName = 'Formulário site LRV BRASIL'; //Nome que será exibido
+    $mailer->From = 'victorhugo-brito@hotmail.com';
+    $mailer->AddAddress('victorhugogoncalves2010@gmail.com','LRV BRASIL');
+    //Destinatários
+    $mailer->Subject = 'Nova mensagem enviada do formulário do site LRV BRASIL';
+    $mailer->Body = '<strong>Nova mensagem enviada do formulário do site!</strong><br><br><b>Nome: </b>' .$nome. '<br><b>E-mail: </b>'.$email.'<br><b>Mensagem: </b>' .$mensagem;
+    if(!$mailer->Send())
+    {
+      echo 'A mensagem não pode ser enviada';
+      echo 'Mensagem de erro: ' . $mail->ErrorInfo;
     }else{
-        echo('error');
+      echo "success";
     }
+  } catch (Exception $e) {
+    echo "Erro ao enviar mensagem: {$mail->ErrorInfo}";
 }
-
-
 
 ?>

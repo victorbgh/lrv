@@ -84,8 +84,8 @@
                 <a class="nav-link page-scroll" href="#culturaTabaco" lang="es">Cultura del tabaco</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#a-revolucao" lang="pt">A Revolução</a>
-                <a class="nav-link page-scroll" href="#a-revolucao" lang="es">La Revolución</a>
+                <a class="nav-link page-scroll" href="#a-revolucao" lang="pt">Produtos</a>
+                <a class="nav-link page-scroll" href="#a-revolucao" lang="es">Nuestros productos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#testimonial" lang="pt">Registro</a>
@@ -103,17 +103,17 @@
                 <a class="nav-link page-scroll" href="#contact" lang="pt">Contato</a>
                 <a class="nav-link page-scroll" href="#contact" lang="es">Contacto</a>
               </li>
+              <div class="social-icons " style="margin-top: auto; margin-bottom: auto;">
+                <ul>
+                  <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
+                  <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
             </ul>
-            <!-- <div class="social-icons" style="margin-top: 0px !important; width: 110px; margin-left: 35px;">
-              <ul>
-                <li class="facebook"><a href="https://www.facebook.com/larevolucionn.br/" target="_blank" title="Acessar facebook da LRV"><i class="fa fa-facebook"></i></a></li>
-                <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" target="_blank" title="Acessar instagram da LRV"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-            </div> -->
 
 
             <div id="lang_selector" class="language-dropdown">
-              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 44px; margin-left: 30px;">
+              <label for="toggle" class="lang-flag lang-pt" title="Selecione a linguagem" style="margin-top: 44px; margin-left: 30px;">
                 <span class="flag"></span>
               </label>
               <ul class="lang-list" style="margin-left: 30px;">
@@ -152,8 +152,8 @@
               <a class="page-scroll lang" href="#culturaTabaco" rel="nofollow" lang="es">Cultura del tabaco</a>
             </li>
             <li>
-              <a class="page-scroll lang" href="#a-revolucao" rel="nofollow" lang="pt">A Revolução</a>
-              <a class="page-scroll lang" href="#a-revolucao" rel="nofollow" lang="es">La Revolución</a>
+              <a class="page-scroll lang" href="#a-revolucao" rel="nofollow" lang="pt">Produtos</a>
+              <a class="page-scroll lang" href="#a-revolucao" rel="nofollow" lang="es">Nuestros productos</a>
             </li>
             <li>
               <a class="page-scroll lang" href="#testimonial" rel="nofollow" lang="pt">Registro</a>
@@ -176,7 +176,7 @@
               <li class="google-plus"><a href="https://www.instagram.com/lrvbrasil/" style="background: #ddd0 !important; margin: 10px; color: #f1f1f1;" target="_blank"><i class="fa fa-instagram"></i></a></li>
             </ul>
             <div id="lang_selector" class="language-dropdown" style="display: block;">
-              <label for="toggle" class="lang-flag lang-pt" title="Click to select the language" style="margin-top: 15px; margin-left: 10px;">
+              <label for="toggle" class="lang-flag lang-pt" title="Selecione a linguagem" style="margin-top: 15px; margin-left: 10px;">
                 <span class="flag"></span>
               </label>
               <ul class="lang-list" style="margin-left: 10px;">
@@ -194,10 +194,64 @@
 
       </nav>
 
-      <div class="header-content outer">
+      <!-- <div class="header-content outer"> -->
 
-        <div class="container ">
-          <div class="row inner">
+      <div class="owl-carousel owl-theme ">
+        <!-- <div class="owl-slide d-flex align-items-center cover img-carousel-2">
+          <div class="overlay-carousel vertical-center">
+            <div class="container">
+              <div class="row justify-content-center justify-content-md-start">
+                <div class="col-10 col-md-6 static">
+                  <div class="owl-slide-text">
+                    <h2 class="owl-slide-animated owl-slide-title">#LaOnça</h2>
+                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                      One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="owl-slide d-flex align-items-center cover img-carousel-1">
+        <!-- style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel2.jpg);" -->
+          <div class="overlay-carousel vertical-center">
+            <div class="container">
+                <div class="row justify-content-center justify-content-md-start">
+                  <div class="col-10 col-md-6 static">
+                    <div class="owl-slide-text">
+                      <h2 class="owl-slide-animated owl-slide-title">TABACO <img src="<?php echo url_site;?>img/LA REVOLUCION BRANCO.png" alt="LRV BRASIL TABACO" width="60%" height="auto"></h2>
+                      <p class="owl-slide-animated owl-slide-subtitle mb-3 bold" lang="pt">O VERDADEIRO DESTALADO</p>
+                      <p class="owl-slide-animated owl-slide-subtitle mb-3 bold" lang="es">EL VERDADERO INDEPENDIENTE</p>
+                      <!-- <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/Ijx8OxvKrgM" target="_blank" role="button">See Original Image</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>  
+        </div><!--/owl-slide-->
+
+        <div class="owl-slide d-flex align-items-center cover img-carousel-3">
+        <!-- style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/owlcarousel3.jpg);" -->
+        <div class="overlay-carousel vertical-center">
+          <div class="container">
+            <div class="row justify-content-center justify-content-md-start">
+              <div class="col-10 col-md-6 static">
+                <div class="owl-slide-text">
+                  <h1 class="owl-slide-animated owl-slide-title">CHEGOU AS PITEIRAS DE VIDRO <img class="img-fulid" src="<?php echo url_site;?>img/LRV BRANCO PNG.png" alt="LRV Logo" alt="LRV Logo" height="auto" width="40%" style="width: 40% !important;"></h1>
+                  <p class="owl-slide-animated owl-slide-subtitle mb-3" lang="pt">Você já conhece as piteiras de vidro LRV? Foram desenvolvidas com a finalidade de auxiliar na redução de danos e preservação do meio ambiente além de ressaltar o sabor.</p>
+                  <p class="owl-slide-animated owl-slide-subtitle mb-3" lang="es">¿Ya conoces las boquillas de cristal LRV? Fueron desarrollados con el propósito de ayudar en la reducción de daños y preservación del medio ambiente además de resaltar el sabor.</p>
+                  <!-- <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/7uwbhGSH5Fg" target="_blank" role="button">See Original Image</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div><!--/owl-slide-->
+      </div>
+          
+          <!-- <div class="row inner">
             <div class="col-sm-12">
               <div class="image-container ">
                 <div id="divToAppend-first" class="text-container" style="text-align: center;">
@@ -217,8 +271,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
 
     </header>
 
@@ -410,7 +464,7 @@
     <section id="a-revolucao" class="section">
       <div class="container">
         <div class="section-header col-md-12">          
-          <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">A REVOLUÇÃO</span> <span lang="es">LA REVOLUCIÓN</span></h1>
+          <h1 class="section-title wow fadeIn" data-wow-duration="600ms" data-wow-delay="0.3s"><span lang="pt">NOSSOS PRODUTOS</span> <span lang="es">NUESTROS PRODUCTOS</span></h1>
           <span class="lines wow zoomIn" data-wow-delay="0.3s"></span>
             <p class="section-subtitle wow fadeInDown font-700" data-wow-duration="600ms" data-wow-delay="0.3s">
               <span lang="pt">
@@ -425,23 +479,32 @@
             </p>
             <p class="section-subtitle wow fadeInUp font-700" data-wow-duration="600ms" data-wow-delay="0.3s">Beatrice Bruteau</p>
         </div>
+        
 
-        <div class="row">
+
+
+        <section class="hero-section">
+          <div class="card-grid justify-custom">
+            <a class="card" href="produtos/la-revolucion">
+              <div class="card__background" style="background-image: url(img/teste.jpg)"></div>
+              <div class="card__content">
+                <!-- <p class="card__category">Category</p> -->
+                <h3 class="card__heading">Tabaco <img src="<?php echo url_site;?>img/LA REVOLUCION BRANCO.png" alt="LRV BRASIL TABACO" width="100%" height="auto"></h3>
+              </div>
+            </a>
+            <a class="card" href="produtos/piteira">
+              <div class="card__background" style="background-image: url(img/piteiras\ horizontal.png)"></div>
+              <div class="card__content">
+                <img src="<?php echo url_site;?>img/pirteiras logo branca-01.png" class="img-fluid margin-center" alt="LRV BRASIL TABACO" width="80%" height="auto">
+              </div>
+            </a>
+          <div>
+        </section>
+
+
+
+        <!-- <div class="row">
           <div class="col-md-6 wow fadeInDown margin-bottom-15" data-wow-duration="600ms" data-wow-delay="0.5s">
-            <!-- <div class="hero-slider" data-carousel-lrv style="border-radius: 20px;">
-              <div class="carousel-cell" style="background-image:url(img/la-revolucion-tabaco-1-min.png);">
-                <div class="overlay"></div>
-              </div>
-              <div class="carousel-cell" style="background-image:url(img/lrv-tabaco-1-min.jpg);">
-                <div class="overlay"></div>
-              </div>
-              <div class="carousel-cell" style="background-image:url(img/lrv-slide-3-min.png);">
-                <div class="overlay"></div>
-              </div>
-              <div class="carousel-cell" style="background-image:url(img/tabacoAr-min.jpg);">
-                <div class="overlay"></div>
-              </div>
-            </div> -->
             <div class="owl-carousel owl-theme">
                 <div class="item"><img style="border-radius: 10px;" class="img-fluid" src="img/la-revolucion-tabaco-1-min.png" width="100%" height="auto" alt="CMA Escritório"></div>
                 <div class="item"><img style="border-radius: 10px;" class="img-fluid" src="img/teste.jpg" width="100%" height="auto" alt="CMA Escritório"></div>
@@ -490,7 +553,7 @@
             </p>
             <br>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -676,7 +739,7 @@
                 <a class="page-scroll" href="#culturaTabaco"><span lang="pt">Cultura do Tabaco</span> <span lang="es">Cultura del tabaco</span></a>
               </li>
               <li>
-                <a class="page-scroll" href="#a-revolucao"><span lang="pt">A Revolução</span> <span lang="es">La revolución</span></a>
+                <a class="page-scroll" href="#a-revolucao"><span lang="pt">Produtos</span> <span lang="es">Nuestros productos</span></a>
               </li>
               <li>
                 <a class="page-scroll" href="#testimonial"><span lang="pt">Registro</span> <span lang="es">Grabar</span></a>
