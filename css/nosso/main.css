@@ -2533,7 +2533,7 @@ text {
 }
 
 .language-dropdown .lang-en .flag {
-    background-image: url("http://findicons.com/files/icons/282/flags/48/united_states_of_america_usa.png");
+    background-image: url("../../img/bandeira_americana.png");
 }
 
 .language-dropdown .lang-pt {
@@ -2541,7 +2541,7 @@ text {
 }
 
 .language-dropdown .lang-pt .flag {
-    background-image: url("http://icons.iconarchive.com/icons/icondrawer/flags/48/Brazil-icon.png");
+    background-image: url("../../img/brandeira_brasil.png");
 }
 
 .language-dropdown .lang-es {
@@ -2549,7 +2549,7 @@ text {
 }
 
 .language-dropdown .lang-es .flag {
-    background-image: url("http://www.imaginarium.pt/responsive/2015/images/iconsFicha/banderaES.png");
+    background-image: url("../../img/espanha_bandeira.png");
 }
 
 .language-dropdown label,
@@ -2666,31 +2666,6 @@ text {
 .owl-carousel .owl-slide-cta.is-transitioned {
     transition-delay: 0.5s;
 }
-
-
-/* .owl-carousel .owl-dots,
-.owl-carousel .owl-nav {
-  position: absolute;
-} */
-
-
-/* .owl-carousel .owl-dots .owl-dot,
-.owl-carousel .owl-nav [class*="owl-"]:focus {
-  outline: none;
-} */
-
-
-/* .owl-carousel .owl-dots .owl-dot span {
-  background: transparent;
-  border: 1px solid var(--main-black-color);
-  transition: all 0.2s ease;
-} */
-
-
-/* .owl-carousel .owl-dots .owl-dot:hover span,
-.owl-carousel .owl-dots .owl-dot.active span {
-  background: var(--main-black-color);
-} */
 
 .owl-carousel .owl-nav {
     left: 50%;
