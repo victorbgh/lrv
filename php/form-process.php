@@ -10,6 +10,7 @@ use PHPMailer\PHPMailer\PHPMailer;
     $nome = $_POST["nome"];
     $email = $_POST["email"];
     $mensagem = $_POST["mensagem"];
+    $assunto = $_POST["assunto"];
     $mailer = new PHPMailer(true);
     $mailer->setLanguage('br');                             // Habilita as saídas de erro em Português
     $mailer->CharSet='UTF-8';
@@ -26,7 +27,7 @@ use PHPMailer\PHPMailer\PHPMailer;
     $mailer->AddAddress('victorhugogoncalves2010@gmail.com','LRV BRASIL');
     //Destinatários
     $mailer->Subject = 'Nova mensagem enviada do formulário do site LRV BRASIL';
-    $mailer->Body = '<strong>Nova mensagem enviada do formulário do site!</strong><br><br><b>Nome: </b>' .$nome. '<br><b>E-mail: </b>'.$email.'<br><b>Mensagem: </b>' .$mensagem;
+    $mailer->Body = '<strong>Nova mensagem enviada do formulário do site!</strong><br><br><b>Nome: </b>' .$nome. '<br><b>E-mail: </b>'.$email.'<br><b>Mensagem: </b>' .$mensagem. '<br><b>Assunto: </b>'.$assunto;
     if(!$mailer->Send())
     {
       echo 'A mensagem não pode ser enviada';

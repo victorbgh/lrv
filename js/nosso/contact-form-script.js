@@ -16,7 +16,12 @@ function submitForm(){
     var nome = $("#name").val();
     var email = $("#email").val();
     var mensagem = $("#message").val();
+    var assunto = $("#assunto").val();
 
+    if(assunto == "assunto" || assunto == null){
+        $("#msgSubmit").removeClass().addClass("h3 text-center text-danger").text("Insira o assunto do texto!");
+        return false;
+    }
 
     $.ajax({
         type: "POST",
@@ -24,7 +29,8 @@ function submitForm(){
         data : {
             nome: nome,
             email: email,
-            mensagem: mensagem
+            mensagem: mensagem,
+            assunto: assunto
         },
         success : function(text){
             if (text == "success"){
